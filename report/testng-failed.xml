@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ant suite]">
+  <test name="Ant test(failed)">
+    <classes>
+      <class name="com.puma.test.CheckoutSignIn">
+        <methods>
+          <include name="oneTimeTearDown"/>
+          <include name="oneTimeSetUp"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutSignIn -->
+      <class name="com.puma.test.PumaUtilNavSearch">
+        <methods>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.PumaUtilNavSearch -->
+      <class name="com.puma.test.PDPTest">
+        <methods>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.PDPTest -->
+      <class name="com.puma.test.CartTest">
+        <methods>
+          <include name="getFromHomeToCart"/>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+          <include name="searchForSku"/>
+        </methods>
+      </class> <!-- com.puma.test.CartTest -->
+    </classes>
+  </test> <!-- Ant test(failed) -->
+</suite> <!-- Failed suite [Ant suite] -->

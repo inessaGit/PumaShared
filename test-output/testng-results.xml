@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Currently testing URL: about:blank]]>
+    </line>
+    <line>
+      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+    </line>
+    <line>
+      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+    </line>
+    <line>
+      <![CDATA[Selected color on PDP is: 'black-white']]>
+    </line>
+    <line>
+      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+    </line>
+    <line>
+      <![CDATA[Selected size on PDP is: '44-46']]>
+    </line>
+    <line>
+      <![CDATA[Using Firefox browser version 24]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken at 2013-Dec-15-21hr-36min-46 sec-119mls]]>
+    </line>
+    <line>
+      <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-36min-46 sec-119mls.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Using Firefox browser version 24]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken at 2013-Dec-15-21hr-36min-46 sec-119mls]]>
+    </line>
+    <line>
+      <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-36min-46 sec-119mls.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43838" started-at="2013-12-16T05:36:46Z" finished-at="2013-12-16T05:37:30Z">
+    <groups>
+      <group name="subcategory">
+        <method signature="PDPTest.subcatPageFunct()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="subcatPageFunct" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.subcatPageUI()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="subcatPageUI" class="com.puma.test.PDPTest"/>
+      </group> <!-- subcategory -->
+      <group name="pdp">
+        <method signature="PDPTest.pdpPageSelectColor()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSelectColor" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageSelectSize()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSelectSize" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageSizeChart()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSizeChart" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageZoomIn()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageZoomIn" class="com.puma.test.PDPTest"/>
+      </group> <!-- pdp -->
+      <group name="init">
+        <method signature="PDPTest.homePageMainNav()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="homePageMainNav" class="com.puma.test.PDPTest"/>
+      </group> <!-- init -->
+    </groups>
+    <test name="Default test" duration-ms="43838" started-at="2013-12-16T05:36:46Z" finished-at="2013-12-16T05:37:30Z">
+      <class name="com.puma.test.PDPTest">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="oneTimeSetUp" is-config="true" duration-ms="9525" started-at="2013-12-15T21:36:46Z" finished-at="2013-12-15T21:36:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Currently testing URL: about:blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="homePageMainNav()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="homePageMainNav" duration-ms="7801" started-at="2013-12-15T21:36:55Z" finished-at="2013-12-15T21:37:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageMainNav -->
+        <test-method status="PASS" signature="subcatPageFunct()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="subcatPageFunct" duration-ms="1" depends-on-groups="init" started-at="2013-12-15T21:37:03Z" finished-at="2013-12-15T21:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subcatPageFunct -->
+        <test-method status="PASS" signature="subcatPageUI()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="subcatPageUI" duration-ms="13259" depends-on-groups="init" started-at="2013-12-15T21:37:03Z" finished-at="2013-12-15T21:37:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subcatPageUI -->
+        <test-method status="PASS" signature="pdpPageSelectColor()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSelectColor" duration-ms="4244" depends-on-groups="subcategory" started-at="2013-12-15T21:37:16Z" finished-at="2013-12-15T21:37:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected color on PDP is: 'black-white']]>
+            </line>
+            <line>
+              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSelectColor -->
+        <test-method status="PASS" signature="pdpPageSelectSize()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSelectSize" duration-ms="2129" depends-on-groups="subcategory" started-at="2013-12-15T21:37:21Z" finished-at="2013-12-15T21:37:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected size on PDP is: '44-46']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSelectSize -->
+        <test-method status="PASS" signature="pdpPageSizeChart()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageSizeChart" duration-ms="4184" depends-on-groups="subcategory" started-at="2013-12-15T21:37:23Z" finished-at="2013-12-15T21:37:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Using Firefox browser version 24]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken at 2013-Dec-15-21hr-36min-46 sec-119mls]]>
+            </line>
+            <line>
+              <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-36min-46 sec-119mls.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSizeChart -->
+        <test-method status="PASS" signature="pdpPageZoomIn()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="pdpPageZoomIn" duration-ms="2638" depends-on-groups="subcategory" started-at="2013-12-15T21:37:27Z" finished-at="2013-12-15T21:37:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Using Firefox browser version 24]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken at 2013-Dec-15-21hr-36min-46 sec-119mls]]>
+            </line>
+            <line>
+              <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-36min-46 sec-119mls.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageZoomIn -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.PDPTest@52de94b8]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2013-12-15T21:37:30Z" finished-at="2013-12-15T21:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- com.puma.test.PDPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

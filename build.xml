@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+
+<project name="structured-PUMA" default="archive">
+		 
+	<path id="classpath.lib">
+     		<fileset dir="lib" includes= "*.jar" />
+     	<!-- Include all the test compile classes -->
+		    <fileset dir="bin">
+		    </fileset>
+		<pathelement path="./build/classes/"/>
+     </path>
+
+
+	<property name="from-lib" location="/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Nautica/lib"/>
+	<property name="to-lib" location="/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/lib"/>
+	<property name="report" value="./report" />
+	<property name = "lib" location="${basedir}/lib"/>
+	 <property name="bin" location ="${basedir}/build/classes/"/>
+	 <property name="mail.tolist" value="igonzalez@fluid.com, software_test22@hotmail.com"/>
+<property name="puma.project" location ="/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma"/>
+	 
+	
+	<!--<property name="test.dir" location ="${basedir}/src/com/puma/test"/>-->
+	<property name ="test.data.dir" location="${basedir}/src/com/puma/test_data/"/>
+	<property name="test.reports.dir" location ="${basedir}/report"/>
+  
+	 
+	
+<!-- target#1 -->    
+    <target name="init">
+    	<tstamp>
+    	    <format property="buildtime" pattern="yyy-MM-dd' Time: 'HH:mm:ss"/>
+    	</tstamp>
+    	
+    	<echo message ="buildtime=${buildtime}"/>
+    	
+        <mkdir dir="build/classes"/>
+        <mkdir dir="dist"/>
+    	<mkdir dir="lib"/>
+    	<mkdir dir="report"/>
+    	
+    	<mkdir dir="reportZIPEmail"/>
+    	<echo message ="executing target1 'init'"/>
+    	
+    </target>
+    
+	
+ <!-- target#2 -->
+     <target name="compile" depends="init" >
+              <javac srcdir="src" destdir ="${bin}" encoding="UTF-8" debug="true" fork="true" classpathref="classpath.lib"/>
+     	
+     	<echo message="executing target2 'compile'"/>
+     </target>
+    
+	
+   <!-- target TEST FOR JAVAC COMPILE WITHOUT unitTests -->
+     <target name="compile2" depends="init" >
+              <javac srcdir="src" destdir ="${bin}" encoding="UTF-8" debug="true" fork="true"
+                   classpathref="classpath.lib">
+    	    <exclude name="**/unitTests/**"/>
+              </javac>
+     	
+     	<echo message="executing target2 'compile'"/>
+     </target>
+    
+    
+     <!-- TARGET TEST TXT FOR LISTING LIBRARY JARS -->
+  
+  <target name="list-jars">
+      
+      <fileset id="jars" dir="${lib}">
+    <include name="*.jar"/>
+  </fileset>
+      
+    <script language="javascript"><![CDATA[
+        var out = new java.io.PrintWriter(new java.io.FileWriter('jars.txt'));
+
+        var iJar = project.getReference('jars').iterator();
+        while (iJar.hasNext()) {
+            var jar = new String(iJar.next());
+            out.println(jar);
+        }
+
+        out.close();
+    ]]></script>
+       <tstamp>
+    	    <format property="lib-updated" pattern="yyy-MM-dd' Time: 'HH:mm:ss"/>
+    	</tstamp>
+    <echo file="jars.txt" append="true" >
+        Library updated at ${lib-updated}
+    </echo>
+  </target>
+  
+  
+  <!-- target#3 -->
+  <target name="archive" depends="compile">
+      
+      <tstamp>
+    	    <format property="archived-time" pattern="yyy-MM-dd' Time: 'HH:mm:ss"/>
+    	</tstamp>
+    	
+      <jar destfile="dist/project.jar" basedir="src">
+          <fileset dir="lib" includes= "*.jar" />
+      </jar>
+  	<echo message="executing target3 'archive' - creating .jar"/>
+  	<echo file="${basedir}/dist/archivedTime.txt" append="true">
+  	    Jar file created @ ${archived-time}
+  	    </echo>
+  </target>
+  
+  <!-- GENERATE JAVADOC project documentation -->
+  
+  <target name="generate-javadoc" >
+    <javadoc packagenames="com.puma.*" 
+        
+        sourcepath="src" 
+        destdir="JavDoc" version="true" 
+        windowtitle="PUMA Automation Framework" 
+        author="true">
+      <doctitle><![CDATA[= Project Puma Automation  =]]></doctitle>
+      <bottom>
+         <![CDATA[Copyright © 2013. All Rights Reserved.]]>
+      </bottom>
+      <group title="util packages" packages="com.puma.util.*"/>
+      <group title="test packages" packages="com.puma.test.*"/>
+    </javadoc>
+    <echo message="java doc has been generated!" />
+</target>
+    
+   <!-- target#4 -->
+   <target name="clean" depends="init">
+       
+       <delete dir="build"/>
+       <delete dir="dist"/>
+       <delete dir="reportCopy"/>
+   	
+   	<echo message="executing target4 'clean' - deleting temp directories"/>
+   </target>
+	
+<!--target#5-->
+	<target name="copy-lib" depends="init">
+	
+		<copy todir="${to-lib}">
+		<fileset dir="${from-lib}"/>
+		<fileset dir="/Users/igonzalez/Desktop/SELENIUM_jar">
+			<exclude name="**/ApacheTomcat7/**"/>
+			<exclude name="**/*.pkg"/>
+			<exclude name="**/adt-bundle-mac-x86_64-20131030/**"/>
+			</fileset>
+			</copy>
+		
+		<echo message="executing target#5 - copying files to 'lib' folder"/>
+	
+	</target>
+	
+
+	
+<!--target#7-->
+	<target name="echo">
+	<echo message="ant.file=${ant.file}"/>
+	<echo message="ant.home=${ant.home}"/>
+	<echo message="ant.java.version=${ant.java.version}"/>
+	<echo message="basedir=${basedir}"/>
+	<echo message="user.home=${user.home}"/>
+    <echo message="user.dir =${user.dir}"/>
+	<echo message="bin=${bin}"/>
+    <echo>
+      Computer name is ${user.name}
+      OS Name is ${os.name}
+    </echo>
+    <echoproperties>
+    <propertyset>
+      <propertyref regex=".*ant.*"/>
+    </propertyset>
+  </echoproperties>
+		
+	</target>
+	
+
+   
+<!--target#8 runtests-->
+	<target name="runTests" description="Running tests" depends ="compile">
+	<echo message="Running target #8 'runTests'"/>
+		<taskdef resource="testngtasks" classpathref="classpath.lib"/>
+		<testng outputDir="report" haltonfailure="false" classpathref="classpath.lib">
+			<classfileset dir="bin" includes="**/*.class" />
+		</testng>
+
+    </target>
+    
+	<!-- target#9 copy reports from Ant suite to timestamped folder and zip it up-->
+
+<target name="copyAndZip"  description ="Copy reports to timestamped folder" depends="clean">
+    	<echo message="Running target #9 'copyAndZip'"/>
+    
+    		<tstamp>
+    	    <format property="buildtime" pattern="yyy-MM-dd' Time: 'HH:mm:ss"/>
+    	</tstamp>
+    	
+    	<echo message ="buildtime=${buildtime}"/>
+    	
+    	<delete dir="./reportCopy"/>
+    <mkdir dir="./reportCopy/report-${buildtime}"/>
+    <copy todir="./reportCopy/report-${buildtime}">
+        
+        <fileset dir="${basedir}/report/">
+            <exclude name="**/junitreports/**"/>
+        </fileset>
+    </copy>
+    
+    <!-- zips all files in the reportsZIP  directory into a file called testreports.zip in 
+    the reportsZIP directory. If reports.zip doesn't exist, it is created; otherwise it is updated with the new/changed files.
+
+     -->
+     <mkdir dir="./reportZIP"/>
+     
+     <!-- this is a folder for all zipped up reports -->
+    <zip destfile="/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/reportZIP/testreports-${buildtime}.zip" basedir="./reportCopy"  update="true" />
+    <!-- this is a folder that will have one LAST REPORT -->
+    <delete dir="reportZIPEmail"/>
+    <mkdir dir="temp"/>
+    <copy todir="./temp/report-${buildtime}">
+        <fileset dir="${basedir}/report/">
+            <exclude name="**/junitreports/**"/>
+        </fileset>
+        
+    </copy>
+    <zip destfile="/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/reportZIPEmail/testreports-${buildtime}.zip" basedir="./temp"  update="true" />
+    <delete dir="temp"/>
+    <delete dir="${basedir}/report/screenshot"/>
+    
+    <mkdir dir="report/screenshot/FAIL/"/>
+    	<mkdir dir="report/screenshot/PASS/"/>
+    	<mkdir dir="report/screenshot/UserGen"/>
+</target>
+
+
+<!-- -target #10 email from yahoo-->
+<target name="emailReport" description="Email zipped folder after running tests from yahoo">
+    
+    <property name="report.type" value="TestNG" />
+             <tstamp>
+                 <format property="HUMANDATE" pattern="dd/MMMM/yyyy :(HH:mm:ss)" />
+             </tstamp>
+         <property name="subject" value="${report.type} Report for  ${HUMANDATE}" />
+  <mail  
+      
+      encoding="mime" 
+      messagemimetype="text/html"  
+      ssl="true"
+      
+      user="software_test22@yahoo.com"
+      password="Jenny1983"
+      mailhost="smtp.mail.yahoo.com" 
+      mailport="587" 
+      subject="${subject}"
+     from ="software_test22@yahoo.com"
+     replyto ="igonzalez@fluid.com"
+     tolist="${mail.tolist}"
+     >
+     
+     <message>The nightly build has completed</message>
+   <attachments>
+     <fileset dir="reportZIPEmail">
+        <include name="**/*.zip"/>
+     </fileset>
+   </attachments>
+</mail>
+    
+</target>
+
+<!-- -target #10 email -->
+<target name="emailReport2" description="Email zipped folder after running tests from gmail">
+    <property name="report.type" value="TestNG" />
+             <tstamp>
+                 <format property="HUMANDATE" pattern="dd/MMMM/yyyy :(HH:mm:ss)" />
+             </tstamp>
+         <property name="subject" value="${report.type} and time ${HUMANDATE}" />
+ <mail  
+     encoding="mime" 
+     messagemimetype="text/html"  
+     ssl="true"
+     mailhost="smtp.gmail.com"
+     mailport="465"
+     subject="${subject}"
+     from ="inez2209@gmail.com"
+     user="inez2209@gmail.com"
+     password="Jenny1983"
+     replyto ="igonzalez@fluid.com"
+     tolist  ="${mail.tolist}">
+ <message>The nightly build has completed</message>
+   <attachments>
+     <fileset dir="reportZIPEmail">
+        <include name="**/*.zip"/>
+     </fileset>
+   </attachments>
+</mail>
+       <echo message="Completed sending email with zip files."/>
+ 
+</target>
+    
+</project>
+

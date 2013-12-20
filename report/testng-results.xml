@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+    <line>
+      <![CDATA[Currently testing URL: about:blank]]>
+    </line>
+    <line>
+      <![CDATA[Currently testing URL: about:blank]]>
+    </line>
+    <line>
+      <![CDATA[Currently testing URL: about:blank]]>
+    </line>
+    <line>
+      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+    </line>
+    <line>
+      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+    </line>
+    <line>
+      <![CDATA[Currently testing URL: about:blank]]>
+    </line>
+    <line>
+      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+    </line>
+    <line>
+      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+    </line>
+    <line>
+      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+    </line>
+    <line>
+      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+    </line>
+    <line>
+      <![CDATA[No security alert while using 'search']]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "562941"]]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumbs match entred 'search value']]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumbs for search page are on the page: true]]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "pants"]]>
+    </line>
+    <line>
+      <![CDATA[Breadcrumbs match entred 'search value']]>
+    </line>
+    <line>
+      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
+    </line>
+    <line>
+      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+    </line>
+    <line>
+      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
+    </line>
+    <line>
+      <![CDATA[Selected color on PDP is: 'black-white']]>
+    </line>
+    <line>
+      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+    </line>
+    <line>
+      <![CDATA[Selected size on PDP is: '44-46']]>
+    </line>
+    <line>
+      <![CDATA[Using Firefox browser version 24]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls]]>
+    </line>
+    <line>
+      <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Using Firefox browser version 24]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls]]>
+    </line>
+    <line>
+      <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Ant suite" duration-ms="137429" started-at="2013-12-16T05:38:58Z" finished-at="2013-12-16T05:41:15Z">
+    <groups>
+      <group name="search">
+        <method signature="PumaUtilNavSearch.searchForPants()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="searchForPants" class="com.puma.test.PumaUtilNavSearch"/>
+        <method signature="PumaUtilNavSearch.searchForSku()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="searchForSku" class="com.puma.test.PumaUtilNavSearch"/>
+      </group> <!-- search -->
+      <group name="subcategory">
+        <method signature="PDPTest.subcatPageFunct()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="subcatPageFunct" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.subcatPageUI()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="subcatPageUI" class="com.puma.test.PDPTest"/>
+      </group> <!-- subcategory -->
+      <group name="initCheckoutSignIn">
+        <method signature="CheckoutSignIn.interstCheckoutPage()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="interstCheckoutPage" class="com.puma.test.CheckoutSignIn"/>
+      </group> <!-- initCheckoutSignIn -->
+      <group name="pdp">
+        <method signature="PDPTest.pdpPageSelectColor()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSelectColor" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageSelectSize()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSelectSize" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageSizeChart()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSizeChart" class="com.puma.test.PDPTest"/>
+        <method signature="PDPTest.pdpPageZoomIn()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageZoomIn" class="com.puma.test.PDPTest"/>
+      </group> <!-- pdp -->
+      <group name="cartUI">
+        <method signature="CartTest.searchForSku()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="searchForSku" class="com.puma.test.CartTest"/>
+      </group> <!-- cartUI -->
+      <group name="init">
+        <method signature="PDPTest.homePageMainNav()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="homePageMainNav" class="com.puma.test.PDPTest"/>
+      </group> <!-- init -->
+      <group name="initSearch">
+        <method signature="PumaUtilNavSearch.openPumaHomePage()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="openPumaHomePage" class="com.puma.test.PumaUtilNavSearch"/>
+      </group> <!-- initSearch -->
+      <group name="checkoutSignIn">
+        <method signature="CheckoutSignIn.checkoutSignInGuest()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="checkoutSignInGuest" class="com.puma.test.CheckoutSignIn"/>
+        <method signature="CheckoutSignIn.checkoutSignInRegistered()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="checkoutSignInRegistered" class="com.puma.test.CheckoutSignIn"/>
+      </group> <!-- checkoutSignIn -->
+      <group name="initCart">
+        <method signature="CartTest.getFromHomeToCart()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="getFromHomeToCart" class="com.puma.test.CartTest"/>
+      </group> <!-- initCart -->
+    </groups>
+    <test name="Ant test" duration-ms="137429" started-at="2013-12-16T05:38:58Z" finished-at="2013-12-16T05:41:15Z">
+      <class name="com.puma.test.PDPTest">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="oneTimeSetUp" is-config="true" duration-ms="3148" started-at="2013-12-15T21:39:33Z" finished-at="2013-12-15T21:39:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Currently testing URL: about:blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="homePageMainNav()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="homePageMainNav" duration-ms="6363" started-at="2013-12-15T21:39:36Z" finished-at="2013-12-15T21:39:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageMainNav -->
+        <test-method status="PASS" signature="subcatPageFunct()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="subcatPageFunct" duration-ms="1" depends-on-groups="init" started-at="2013-12-15T21:40:53Z" finished-at="2013-12-15T21:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subcatPageFunct -->
+        <test-method status="PASS" signature="subcatPageUI()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="subcatPageUI" duration-ms="4562" depends-on-groups="init" started-at="2013-12-15T21:40:53Z" finished-at="2013-12-15T21:40:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subcatPageUI -->
+        <test-method status="PASS" signature="pdpPageSelectColor()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSelectColor" duration-ms="4248" depends-on-groups="subcategory" started-at="2013-12-15T21:41:02Z" finished-at="2013-12-15T21:41:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected color on PDP is: 'black-white']]>
+            </line>
+            <line>
+              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSelectColor -->
+        <test-method status="PASS" signature="pdpPageSelectSize()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSelectSize" duration-ms="2129" depends-on-groups="subcategory" started-at="2013-12-15T21:41:06Z" finished-at="2013-12-15T21:41:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected size on PDP is: '44-46']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSelectSize -->
+        <test-method status="PASS" signature="pdpPageSizeChart()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageSizeChart" duration-ms="4233" depends-on-groups="subcategory" started-at="2013-12-15T21:41:08Z" finished-at="2013-12-15T21:41:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Using Firefox browser version 24]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls]]>
+            </line>
+            <line>
+              <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageSizeChart -->
+        <test-method status="PASS" signature="pdpPageZoomIn()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="pdpPageZoomIn" duration-ms="2697" depends-on-groups="subcategory" started-at="2013-12-15T21:41:13Z" finished-at="2013-12-15T21:41:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Using Firefox browser version 24]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls]]>
+            </line>
+            <line>
+              <![CDATA[Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pdpPageZoomIn -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.PDPTest@4b24e48f]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2013-12-15T21:41:15Z" finished-at="2013-12-15T21:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- com.puma.test.PDPTest -->
+      <class name="com.puma.test.PumaUtilNavSearch">
+        <test-method status="PASS" signature="openPumaHomePage()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="openPumaHomePage" duration-ms="9679" started-at="2013-12-15T21:40:11Z" finished-at="2013-12-15T21:40:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openPumaHomePage -->
+        <test-method status="PASS" signature="searchForSku()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="searchForSku" duration-ms="14414" started-at="2013-12-15T21:40:21Z" finished-at="2013-12-15T21:40:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[No security alert while using 'search']]>
+            </line>
+            <line>
+              <![CDATA[Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "562941"]]>
+            </line>
+            <line>
+              <![CDATA[Breadcrumbs match entred 'search value']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForSku -->
+        <test-method status="PASS" signature="searchForPants()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="searchForPants" duration-ms="13131" started-at="2013-12-15T21:40:35Z" finished-at="2013-12-15T21:40:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Breadcrumbs for search page are on the page: true]]>
+            </line>
+            <line>
+              <![CDATA[Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "pants"]]>
+            </line>
+            <line>
+              <![CDATA[Breadcrumbs match entred 'search value']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForPants -->
+      </class> <!-- com.puma.test.PumaUtilNavSearch -->
+      <class name="com.puma.test.CartTest">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="oneTimeSetUp" is-config="true" duration-ms="9063" started-at="2013-12-15T21:38:42Z" finished-at="2013-12-15T21:38:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Currently testing URL: about:blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="oneTimeSetUp" is-config="true" duration-ms="3277" started-at="2013-12-15T21:38:51Z" finished-at="2013-12-15T21:38:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Currently testing URL: about:blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="oneTimeSetUp" is-config="true" duration-ms="3081" started-at="2013-12-15T21:38:55Z" finished-at="2013-12-15T21:38:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Currently testing URL: about:blank]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="getFromHomeToCart()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="getFromHomeToCart" duration-ms="28176" started-at="2013-12-15T21:39:43Z" finished-at="2013-12-15T21:40:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+            </line>
+            <line>
+              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFromHomeToCart -->
+        <test-method status="PASS" signature="searchForSku()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="searchForSku" duration-ms="4855" depends-on-groups="initCart" started-at="2013-12-15T21:40:57Z" finished-at="2013-12-15T21:41:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForSku -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CartTest@7a4f0b5b]" name="oneTimeTearDown" is-config="true" duration-ms="102" started-at="2013-12-15T21:41:15Z" finished-at="2013-12-15T21:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="oneTimeTearDown" is-config="true" duration-ms="1" started-at="2013-12-15T21:41:15Z" finished-at="2013-12-15T21:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.PumaUtilNavSearch@5b72c218]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2013-12-15T21:41:15Z" finished-at="2013-12-15T21:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- com.puma.test.CartTest -->
+      <class name="com.puma.test.CheckoutSignIn">
+        <test-method status="PASS" signature="interstCheckoutPage()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="interstCheckoutPage" duration-ms="35357" started-at="2013-12-15T21:38:58Z" finished-at="2013-12-15T21:39:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+            </line>
+            <line>
+              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- interstCheckoutPage -->
+        <test-method status="PASS" signature="checkoutSignInGuest()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="checkoutSignInGuest" duration-ms="4415" depends-on-groups="initCheckoutSignIn" started-at="2013-12-15T21:40:48Z" finished-at="2013-12-15T21:40:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutSignInGuest -->
+        <test-method status="PASS" signature="checkoutSignInRegistered()[pri:0, instance:com.puma.test.CheckoutSignIn@d9ef365]" name="checkoutSignInRegistered" duration-ms="1" depends-on-groups="initCheckoutSignIn" started-at="2013-12-15T21:40:53Z" finished-at="2013-12-15T21:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutSignInRegistered -->
+      </class> <!-- com.puma.test.CheckoutSignIn -->
+    </test> <!-- Ant test -->
+  </suite> <!-- Ant suite -->
+</testng-results>

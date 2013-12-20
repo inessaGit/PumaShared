@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>TestNG:  Ant test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Ant test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 15 21:38:58 PST 2013</td>
+</tr>
+<tr><td>Total time:</td><td>137 seconds (137429 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.puma.test.CheckoutSignIn.checkoutSignInGuest()'><b>checkoutSignInGuest</b><br>Test class: com.puma.test.CheckoutSignIn<br/>
+<a href="#Output-2028144736" onClick='toggleBox("Output-2028144736", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2028144736" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2028144736">
+On checkout 'Sign In' page title is Sites-EU-Site<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.puma.test.CheckoutSignIn@d9ef365</td></tr>
+<tr>
+<td title='com.puma.test.CheckoutSignIn.checkoutSignInRegistered()'><b>checkoutSignInRegistered</b><br>Test class: com.puma.test.CheckoutSignIn</td>
+<td></td>
+<td>0</td>
+<td>com.puma.test.CheckoutSignIn@d9ef365</td></tr>
+<tr>
+<td title='com.puma.test.CartTest.getFromHomeToCart()'><b>getFromHomeToCart</b><br>Test class: com.puma.test.CartTest<br/>
+<a href="#Output-1564035725" onClick='toggleBox("Output-1564035725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1564035725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1564035725">
+On Home page title is Official PUMA Online Store | Russia<br/>
+On subcategory page title is 'Men's Fleece Track Pants - EU'<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.puma.test.CartTest@7a4f0b5b</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.homePageMainNav()'><b>homePageMainNav</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-100773533" onClick='toggleBox("Output-100773533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-100773533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-100773533">
+On Home page title is Official PUMA Online Store | Russia<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.CheckoutSignIn.interstCheckoutPage()'><b>interstCheckoutPage</b><br>Test class: com.puma.test.CheckoutSignIn<br/>
+<a href="#Output-762473733" onClick='toggleBox("Output-762473733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-762473733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-762473733">
+On Home page title is Official PUMA Online Store | Russia<br/>
+On subcategory page title is 'Men's Fleece Track Pants - EU'<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.puma.test.CheckoutSignIn@d9ef365</td></tr>
+<tr>
+<td title='com.puma.test.PumaUtilNavSearch.openPumaHomePage()'><b>openPumaHomePage</b><br>Test class: com.puma.test.PumaUtilNavSearch<br/>
+<a href="#Output-623493704" onClick='toggleBox("Output-623493704", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623493704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623493704">
+On Home page title is Official PUMA Online Store | Russia<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.puma.test.PumaUtilNavSearch@5b72c218</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.pdpPageSelectColor()'><b>pdpPageSelectColor</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-864109117" onClick='toggleBox("Output-864109117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864109117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864109117">
+Selected color on PDP is: 'black-white'<br/>
+After click on 2nd color swatch label changed to 'medium gray heather'<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.pdpPageSelectSize()'><b>pdpPageSelectSize</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-920730592" onClick='toggleBox("Output-920730592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-920730592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-920730592">
+Selected size on PDP is: '44-46'<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.pdpPageSizeChart()'><b>pdpPageSizeChart</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-897202807" onClick='toggleBox("Output-897202807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-897202807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-897202807">
+Using Firefox browser version 24<br/>
+Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls<br/>
+Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.pdpPageZoomIn()'><b>pdpPageZoomIn</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-1438948900" onClick='toggleBox("Output-1438948900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1438948900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438948900">
+Using Firefox browser version 24<br/>
+Screenshot taken at 2013-Dec-15-21hr-38min-42 sec-814mls<br/>
+Saved <a href=../screenshot/UserGen/2013-Dec-15-21hr-38min-42 sec-814mls.png>Screenshot</a><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.PumaUtilNavSearch.searchForPants()'><b>searchForPants</b><br>Test class: com.puma.test.PumaUtilNavSearch<br/>
+<a href="#Output-1182578436" onClick='toggleBox("Output-1182578436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1182578436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1182578436">
+Breadcrumbs for search page are on the page: true<br/>
+Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "pants"<br/>
+Breadcrumbs match entred 'search value'<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.puma.test.PumaUtilNavSearch@5b72c218</td></tr>
+<tr>
+<td title='com.puma.test.PumaUtilNavSearch.searchForSku()'><b>searchForSku</b><br>Test class: com.puma.test.PumaUtilNavSearch<br/>
+<a href="#Output-933353016" onClick='toggleBox("Output-933353016", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-933353016" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-933353016">
+No security alert while using 'search'<br/>
+Breadcrumbs for search page are on the page: true 'value' is +Your search Results for "562941"<br/>
+Breadcrumbs match entred 'search value'<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.puma.test.PumaUtilNavSearch@5b72c218</td></tr>
+<tr>
+<td title='com.puma.test.CartTest.searchForSku()'><b>searchForSku</b><br>Test class: com.puma.test.CartTest<br/>
+<a href="#Output-828716442" onClick='toggleBox("Output-828716442", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-828716442" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-828716442">
+Page title on Cart page is My SiteGenesis Cart<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.puma.test.CartTest@7a4f0b5b</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.subcatPageFunct()'><b>subcatPageFunct</b><br>Test class: com.puma.test.PDPTest</td>
+<td></td>
+<td>0</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+<tr>
+<td title='com.puma.test.PDPTest.subcatPageUI()'><b>subcatPageUI</b><br>Test class: com.puma.test.PDPTest<br/>
+<a href="#Output-1721937180" onClick='toggleBox("Output-1721937180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1721937180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1721937180">
+On subcategory page title is 'Men's Fleece Track Pants - EU'<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.puma.test.PDPTest@4b24e48f</td></tr>
+</table><p>
+</body>
+</html>

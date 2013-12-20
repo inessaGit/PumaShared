@@ -1,0 +1,3 @@
+The ChromeDriver consists of three separate pieces. There is the browser itself ("chrome"), the language bindings provided by the Selenium project ("the driver") and an executable downloaded from the Chromium project which acts as a bridge between "chrome" and the "driver". This executable is called "chromedriver", but we'll try and refer to it as the "server" 
+
+THIS IS WHY NEED CHROMEDRIVER.EXE!!!
