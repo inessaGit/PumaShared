@@ -1,0 +1,2 @@
+This small framework allows to read csv files (excel) while running Junit test. 
+-reading data from a file 

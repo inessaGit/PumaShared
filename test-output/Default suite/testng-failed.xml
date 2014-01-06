@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.puma.test.CheckoutEndToEnd">
+        <methods>
+          <include name="oneTimeTearDown"/>
+          <include name="step1Fields" invocation-numbers="4 5 6 15 16 17"/>
+          <include name="oneTimeSetUp"/>
+          <include name="getFromHomeToStep1"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutEndToEnd -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

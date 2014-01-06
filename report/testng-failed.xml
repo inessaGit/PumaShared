@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ant suite]">
+  <test name="Ant test(failed)">
+    <classes>
+      <class name="com.puma.test.PumaUtilNavSearch">
+        <methods>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.PumaUtilNavSearch -->
+      <class name="com.puma.test.CartTest">
+        <methods>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.CartTest -->
+      <class name="com.puma.test.PDPTest">
+        <methods>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.PDPTest -->
+      <class name="com.puma.test.CheckoutStep1">
+        <methods>
+          <include name="step1Fields"/>
+          <include name="getFromHomeToStep1"/>
+          <include name="oneTimeSetUp"/>
+          <include name="oneTimeTearDown"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutStep1 -->
+      <class name="com.puma.test.CheckoutSignIn">
+        <methods>
+          <include name="oneTimeTearDown"/>
+          <include name="oneTimeSetUp"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutSignIn -->
+    </classes>
+  </test> <!-- Ant test(failed) -->
+</suite> <!-- Failed suite [Ant suite] -->
