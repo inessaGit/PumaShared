@@ -30,7 +30,7 @@ import com.puma.util.WebDriverManager;
 import com.sun.media.sound.InvalidFormatException;
 
 
-public class CheckoutSignInPage {
+public class CheckoutSignInPage extends InitSuite {
 	WebDriver driver;
 	private WebDriverWait wait;
 	private WebDriverWait shortWait;
@@ -42,12 +42,12 @@ public class CheckoutSignInPage {
 	ReadingProperties rp = new ReadingProperties();
 	
 	private ObjectMap map = new ObjectMap();
-
+/*
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
-		shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
+		shortWait = new WebDriverWait(driver, 10 );
 		action = new Actions(driver);
 
 	}
@@ -56,7 +56,7 @@ public class CheckoutSignInPage {
 	public void oneTimeTearDown() {
 	WebDriverManager.stopDriver();
 	}
-
+*/
 	@Test(groups="initSignIn")
 	public void getFromHomeToStep1() throws Exception
 	{ 

@@ -1,576 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" total="18" passed="12">
+<testng-results skipped="18" failed="0" total="18" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Currently testing URL: about:blank]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[No alert on Step1 page after submitting billing form]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_06_30AM.png>Screenshot</a>]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
     <line>
-      <![CDATA[No alert on Step1 page after submitting billing form]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_07_43AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[No alert on Step1 page after submitting billing form]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_10_34AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[No alert on Step1 page after submitting billing form]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_11_39AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_13_18AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_14_42AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_16_04AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_17_18AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_18_37AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_19_58AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_21_23AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_22_38AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_23_55AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_25_14AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_26_37AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_27_51AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Alert presentnull]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_29_00AM.png>Screenshot</a>]]>
-    </line>
-    <line>
-      <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-    </line>
-    <line>
-      <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-    </line>
-    <line>
-      <![CDATA[Selected color on PDP is: 'black-white']]>
-    </line>
-    <line>
-      <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-    </line>
-    <line>
-      <![CDATA[ALERT: Size chart might be missing on PDP]]>
-    </line>
-    <line>
-      <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-    </line>
-    <line>
-      <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-    </line>
-    <line>
-      <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_30_04AM.png>Screenshot</a>]]>
+      <![CDATA[Skipped test to avoid test failure due to dependency]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1493509" started-at="2014-01-06T09:05:10Z" finished-at="2014-01-06T09:30:04Z">
+  <suite name="Default suite" duration-ms="13993" started-at="2014-01-11T00:19:12Z" finished-at="2014-01-11T00:19:26Z">
     <groups>
       <group name="checkoutETE">
-        <method signature="CheckoutEndToEnd.step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" class="com.puma.test.CheckoutEndToEnd"/>
+        <method signature="CheckoutEndToEnd.step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" class="com.puma.test.CheckoutEndToEnd"/>
       </group> <!-- checkoutETE -->
     </groups>
-    <test name="Default test" duration-ms="1493509" started-at="2014-01-06T09:05:10Z" finished-at="2014-01-06T09:30:04Z">
+    <test name="Default test" duration-ms="13993" started-at="2014-01-11T00:19:12Z" finished-at="2014-01-11T00:19:26Z">
       <class name="com.puma.test.CheckoutEndToEnd">
-        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="oneTimeSetUp" is-config="true" duration-ms="8566" started-at="2014-01-06T01:05:02Z" finished-at="2014-01-06T01:05:10Z">
+        <test-method status="FAIL" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:13Z" finished-at="2014-01-10T16:19:13Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'localhost', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.7.5', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.puma.util.PumaCommonMethods.openPumaHomePage(PumaCommonMethods.java:314)
+	at com.puma.util.PumaCommonMethods.homePageMainNav(PumaCommonMethods.java:382)
+	at com.puma.test.CheckoutEndToEnd.getToStep1(CheckoutEndToEnd.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:366)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
-            <line>
-              <![CDATA[Currently testing URL: about:blank]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- oneTimeSetUp -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="73194" started-at="2014-01-06T01:05:11Z" finished-at="2014-01-06T01:06:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="5512" started-at="2014-01-06T01:06:24Z" data-provider="dataCountry" finished-at="2014-01-06T01:06:30Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Belgique, ZIP=1000, ADDRESS2=, ADDRESS1=De Brouckereplein, FNAME=fnameBrussel}]]>
+                <![CDATA[{STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Belgique, ZIP=1000, ADDRESS2=, ADDRESS1=De Brouckereplein, FNAME=fnameBrussel}]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[No alert on Step1 page after submitting billing form]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_06_30AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="67284" started-at="2014-01-06T01:06:30Z" finished-at="2014-01-06T01:07:37Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="5459" started-at="2014-01-06T01:07:37Z" data-provider="dataCountry" finished-at="2014-01-06T01:07:43Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -579,40 +164,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[No alert on Step1 page after submitting billing form]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_07_43AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="165026" started-at="2014-01-06T01:07:43Z" finished-at="2014-01-06T01:10:28Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="5431" started-at="2014-01-06T01:10:28Z" data-provider="dataCountry" finished-at="2014-01-06T01:10:34Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -621,40 +183,13 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[No alert on Step1 page after submitting billing form]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_10_34AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="59173" started-at="2014-01-06T01:10:34Z" finished-at="2014-01-06T01:11:33Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="5396" started-at="2014-01-06T01:11:33Z" data-provider="dataCountry" finished-at="2014-01-06T01:11:39Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -663,40 +198,21 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[No alert on Step1 page after submitting billing form]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_11_39AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="88750" started-at="2014-01-06T01:11:39Z" finished-at="2014-01-06T01:13:08Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="9385" started-at="2014-01-06T01:13:08Z" data-provider="dataCountry" finished-at="2014-01-06T01:13:17Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -704,77 +220,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_13_18AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="68255" started-at="2014-01-06T01:13:18Z" finished-at="2014-01-06T01:14:26Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="15318" started-at="2014-01-06T01:14:26Z" data-provider="dataCountry" finished-at="2014-01-06T01:14:41Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -782,77 +235,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_14_42AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="71662" started-at="2014-01-06T01:14:42Z" finished-at="2014-01-06T01:15:53Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="10431" started-at="2014-01-06T01:15:53Z" data-provider="dataCountry" finished-at="2014-01-06T01:16:04Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -860,77 +254,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_16_04AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="64544" started-at="2014-01-06T01:16:04Z" finished-at="2014-01-06T01:17:09Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="8956" started-at="2014-01-06T01:17:09Z" data-provider="dataCountry" finished-at="2014-01-06T01:17:18Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -939,40 +274,21 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_17_18AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="62791" started-at="2014-01-06T01:17:18Z" finished-at="2014-01-06T01:18:21Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="15234" started-at="2014-01-06T01:18:21Z" data-provider="dataCountry" finished-at="2014-01-06T01:18:36Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -981,40 +297,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_18_37AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="72674" started-at="2014-01-06T01:18:37Z" finished-at="2014-01-06T01:19:49Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="7890" started-at="2014-01-06T01:19:49Z" data-provider="dataCountry" finished-at="2014-01-06T01:19:57Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1023,40 +316,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_19_58AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="71270" started-at="2014-01-06T01:19:58Z" finished-at="2014-01-06T01:21:09Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="13555" started-at="2014-01-06T01:21:09Z" data-provider="dataCountry" finished-at="2014-01-06T01:21:23Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1065,40 +335,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_21_23AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="65422" started-at="2014-01-06T01:21:23Z" finished-at="2014-01-06T01:22:29Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="9308" started-at="2014-01-06T01:22:29Z" data-provider="dataCountry" finished-at="2014-01-06T01:22:38Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1107,40 +354,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_22_38AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="67633" started-at="2014-01-06T01:22:38Z" finished-at="2014-01-06T01:23:46Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="8032" started-at="2014-01-06T01:23:46Z" data-provider="dataCountry" finished-at="2014-01-06T01:23:54Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1149,40 +373,13 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_23_55AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="64150" started-at="2014-01-06T01:23:55Z" finished-at="2014-01-06T01:24:59Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="14263" started-at="2014-01-06T01:24:59Z" data-provider="dataCountry" finished-at="2014-01-06T01:25:13Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1191,40 +388,21 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_25_14AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="73774" started-at="2014-01-06T01:25:14Z" finished-at="2014-01-06T01:26:27Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="PASS" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="9226" started-at="2014-01-06T01:26:27Z" data-provider="dataCountry" finished-at="2014-01-06T01:26:37Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1233,40 +411,17 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/PASS/06_Jan_2014__01_26_37AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="65350" started-at="2014-01-06T01:26:37Z" finished-at="2014-01-06T01:27:42Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="8387" started-at="2014-01-06T01:27:42Z" data-provider="dataCountry" finished-at="2014-01-06T01:27:51Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="0" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1274,77 +429,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_27_51AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="58730" started-at="2014-01-06T01:27:51Z" finished-at="2014-01-06T01:28:50Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="9278" started-at="2014-01-06T01:28:50Z" data-provider="dataCountry" finished-at="2014-01-06T01:28:59Z">
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1352,76 +444,22 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<ENTER PAYMENT ADDRESS [*Required]> but was:<SELECT A PAYMENT OPTION • REQUIRED>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
-            <line>
-              <![CDATA[Alert presentnull]]>
-            </line>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_29_00AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="getFromHomeToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="getFromHomeToStep1" is-config="true" duration-ms="61080" started-at="2014-01-06T01:29:00Z" finished-at="2014-01-06T01:30:01Z">
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
-            <line>
-              <![CDATA[On Home page title is Official PUMA Online Store | Russia]]>
-            </line>
-            <line>
-              <![CDATA[On subcategory page title is 'Men's Fleece Track Pants - EU']]>
-            </line>
-            <line>
-              <![CDATA[Selected color on PDP is: 'black-white']]>
-            </line>
-            <line>
-              <![CDATA[After click on 2nd color swatch label changed to 'medium gray heather']]>
-            </line>
-            <line>
-              <![CDATA[ALERT: Size chart might be missing on PDP]]>
-            </line>
-            <line>
-              <![CDATA[Page title on Cart page is My SiteGenesis Cart]]>
-            </line>
-            <line>
-              <![CDATA[On checkout 'Sign In' page title is Sites-EU-Site]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- getFromHomeToStep1 -->
-        <test-method status="FAIL" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="step1Fields" duration-ms="2627" started-at="2014-01-06T01:30:01Z" data-provider="dataCountry" finished-at="2014-01-06T01:30:03Z">
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="getToStep1()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="getToStep1" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToStep1 -->
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+        <test-method status="SKIP" signature="step1Fields(java.util.Hashtable)[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="step1Fields" duration-ms="1" started-at="2014-01-10T16:19:26Z" data-provider="dataCountry" finished-at="2014-01-10T16:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1429,47 +467,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Cannot find elements when link text is null.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when link text is null.
-	at org.openqa.selenium.By.linkText(By.java:64)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:160)
-	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
-            <line>
-              <![CDATA[Saved <a href=../screenshot/FAIL/06_Jan_2014__01_30_04AM.png>Screenshot</a>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- step1Fields -->
-        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@779b747d]" name="oneTimeTearDown" is-config="true" duration-ms="154" started-at="2014-01-06T01:30:04Z" finished-at="2014-01-06T01:30:04Z">
+        <test-method status="SKIP" signature="oneTimeTearDown()[pri:0, instance:com.puma.test.CheckoutEndToEnd@70b139c9]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2014-01-10T16:19:26Z" finished-at="2014-01-10T16:19:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneTimeTearDown -->

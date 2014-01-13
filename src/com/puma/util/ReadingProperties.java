@@ -35,7 +35,8 @@ public class ReadingProperties {
 		//read from the properties file		
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/src/com/puma/config/OR.properties");
+			fis = new FileInputStream(System.getProperty("user.dir")+"/src/com/puma/config/OR.properties");
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -77,7 +78,8 @@ loger.info("Successfully read from OR.properties file <"+key+">");
 		//read from the properties file		
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/src/com/puma/config/config.properties");
+			fis = new FileInputStream(System.getProperty("user.dir")+"/src/com/puma/config/config.properties");
+			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -119,7 +121,7 @@ else
 		//read from the properties file		
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/src/com/puma/config/mail.properties");
+			fis = new FileInputStream(System.getProperty("user.dir")+"/src/com/puma/config/mail.properties");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

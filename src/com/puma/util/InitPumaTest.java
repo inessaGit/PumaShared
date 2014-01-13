@@ -119,8 +119,8 @@ public class InitPumaTest {
 		Sheet sheet = wb.createSheet("TestData");
 
 		//turn off gridlines
-		sheet.setDisplayGridlines(false);
-		sheet.setPrintGridlines(false);
+		sheet.setDisplayGridlines(true);
+		sheet.setPrintGridlines(true);
 		sheet.setFitToPage(true);
 		sheet.setHorizontallyCenter(true);
 		PrintSetup printSetup = sheet.getPrintSetup();
@@ -258,7 +258,7 @@ public class InitPumaTest {
 		sheet.setZoom(3, 2);
 
 		// Write the output to a file
-		String file = "/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/src/com/puma/config/PumaTest.xls";
+		String file = System.getProperty("user.dir")+"/src/com/puma/config/PumaTest.xls";
 		if(wb instanceof XSSFWorkbook) file += "x";
 		FileOutputStream out = new FileOutputStream(file);
 		wb.write(out);

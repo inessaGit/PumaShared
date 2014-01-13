@@ -5,10 +5,8 @@
     <classes>
       <class name="com.puma.test.CheckoutEndToEnd">
         <methods>
-          <include name="oneTimeTearDown"/>
-          <include name="step1Fields" invocation-numbers="4 5 6 15 16 17"/>
-          <include name="oneTimeSetUp"/>
-          <include name="getFromHomeToStep1"/>
+          <include name="step1Fields"/>
+          <include name="getToStep1"/>
         </methods>
       </class> <!-- com.puma.test.CheckoutEndToEnd -->
     </classes>

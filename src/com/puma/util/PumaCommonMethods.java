@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,6 +24,7 @@ import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -32,11 +34,14 @@ import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.ErrorHandler.UnknownServerException;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.AssertJUnit;
 import org.testng.Reporter;
+
 
 public class PumaCommonMethods {
 
@@ -45,6 +50,7 @@ public class PumaCommonMethods {
 	Logger log = WebDriverManager.LoggerGetInstance();
 	WebDriverWait shortWait;
 	WebDriverWait wait;
+
 	Actions action;
 	TakeScreenshot ts=new TakeScreenshot();
 	Workbook workbook;
@@ -52,6 +58,8 @@ public class PumaCommonMethods {
 	FileWriter fw;
 	BufferedWriter bw;
 	PrintWriter pw ;
+
+
 	/*****************************************************START OF ALL COMMON METHODS *****************************/
 
 
@@ -80,7 +88,7 @@ public class PumaCommonMethods {
 		}
 	}
 
-	public static boolean waitToLoadElement(WebDriver driver, By by, int seconds) {
+	public boolean waitToLoadElement(WebDriver driver, By by, int seconds) {
 		boolean found = true;
 
 		long bailOutPeriod = 1000 * seconds;
@@ -179,6 +187,40 @@ public class PumaCommonMethods {
 
 	}
 
+	public void writeToTxt(String filepath, StringBuilder data)
+	{
+		try
+		{
+			String [] lines=data.toString().split(" ");
+			
+			File file = new File (filepath);
+			if( file.exists()!=true)
+			{
+				file.createNewFile();
+			}
+			
+			FileWriter fw = new FileWriter (file);
+			BufferedWriter bw = new BufferedWriter (fw);
+
+			for(int i=0; i<lines.length;i++)
+			{
+				bw.write(lines[i]);
+				bw.newLine();
+			}
+			
+			String timestamp = TimeUtil.getTimeStamp();
+			bw.write("====================="+timestamp+"================================");
+			System.out.println("Done writing using FileWriter");
+
+			bw.close();
+		}
+		
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	
+	}
 	public void readTxtFile(String filepath)
 	{
 		ArrayList<String>content = new ArrayList<String>();
@@ -412,7 +454,7 @@ public class PumaCommonMethods {
 	}
 
 	public void pdpPageSelectSize(WebDriver driver) throws Exception
-	{		//select size and add to cart
+	{       //select size and add to cart
 		driver.findElement(map.getLocator("pdp_sizetoggle")).click();
 		driver.findElement(map.getLocator("pdp_firstsize")).click();
 		//  driver.findElement(map.getLocator("pdp_secondsize")).click();
@@ -426,13 +468,14 @@ public class PumaCommonMethods {
 	}
 	public void pdpPageSelectQuantity(WebDriver driver) throws Exception
 	{
+
 		driver.findElement(map.getLocator("pdp_quantitytoggle")).click();
 		driver.findElement(map.getLocator("pdp_quantitytwo")).click();
+
 	}
 
 	public void pdpPageSizeChart(WebDriver driver) throws Exception
 	{ 
-
 
 		try {
 			String defaultWindow=driver.getWindowHandle();
@@ -450,21 +493,22 @@ public class PumaCommonMethods {
 			{
 				System.out.println(handle);
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (NoSuchElementException e) {
+			//e.printStackTrace();
 			//Thread.currentThread().getStackTrace()[0].getMethodName(); shoule be name of currently executing method
 			//	String methodName=Thread.currentThread().getStackTrace()[0].getMethodName();
-			System.out.println("ALERT: Size chart might be missing on PDP");
+			System.out.println(e);
+			Reporter.log("ALERT: Size chart might be missing on PDP");
+
+		}
+		catch (UnknownServerException e) {
+			//e.printStackTrace();
+			//Thread.currentThread().getStackTrace()[0].getMethodName(); shoule be name of currently executing method
+			//	String methodName=Thread.currentThread().getStackTrace()[0].getMethodName();
+			System.out.println(e);
 			Reporter.log("ALERT: Size chart might be missing on PDP");
 		}
 
-		finally
-		{
-
-			driver.findElement(map.getLocator("pdp_addtocart")).click();
-			PumaCommonMethods.pause(1500);
-
-		}
 		// ts.takeScreenshot(driver);
 		//change quantity
 		//assert total
@@ -473,6 +517,7 @@ public class PumaCommonMethods {
 
 	}
 
+
 	/************************************************************mini CART PAGE*****************************/
 	/************************************************************CART PAGE*****************************/
 
@@ -480,9 +525,17 @@ public class PumaCommonMethods {
 	public void fromMiniCartToCart(WebDriver driver) throws Exception
 	{
 
-		driver.findElement(map.getLocator("pdp_minicartlink")).click();
-		Reporter.log("Page title on Cart page is " + driver.getTitle());
+		driver.findElement(map.getLocator("pdp_addtocart")).click();
+		WebElement link = driver.findElement(map.getLocator("pdp_minicartlink"));
+		shortWait = new WebDriverWait(driver,8);
+		
+		action.moveToElement(link).build().perform();
+		shortWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='mini-cart']/div[2]/div[2]/a[2]")));
 
+
+		driver.findElement(map.getLocator("pdp_minicartlink")).click();
+		//driver.findElement(map.getLocator("pdp_minicartlink")).click();
+		Reporter.log("Page title on Cart page is " + driver.getTitle());
 
 	}
 
@@ -581,38 +634,17 @@ public class PumaCommonMethods {
 	public void step1NextStep(WebDriver driver) throws Exception
 
 	{
+		driver.switchTo().defaultContent();
 
-		WebElement step1Next = driver.findElement(map.getLocator("billing_nextstepbtn"));
-		step1Next.click();
-		String alertMsg=null;
-		try 
-		{ 
-			Alert alert = driver.switchTo().alert();
-		alertMsg	 =alert.getText(); 
-			alert.dismiss();
-			//  alert.dismiss();
-			//((JavascriptExecutor)driver).executeScript("window.confirm = function(msg){return true;};");
+		action.moveToElement(driver.findElement(map.getLocator("billing_nextstepbtn"))).click().build().perform();
+		Thread.sleep(4000);
 
-			System.out.println("Alert present: alert message "+ alertMsg);
-			log.info("Alert present" +alertMsg);
-
-		}   // try 
-		catch (NoAlertPresentException Ex) 
-		{ 
-			System.out.println("No alert");
-
-
-		}   // catch 
-		catch (UnhandledAlertException Ex) 
-		{ 
-			System.out.println("Modal dialog present unhandled exception: "+alertMsg);
-
-
-		}
-		/*// 
+		//driver.findElement(map.getLocator("billing_nextstepbtn")).click();
 		String title= driver.getTitle();
 		System.out.println("After click on 'next step' button on Step1 page- page title is "+title); 
 		Reporter.log("After click on 'next step' button on Step1 page- page title is "+title); 
+		/*// 
+
 		long end = System.currentTimeMillis() + 5000;
 		while (System.currentTimeMillis() < end) {
 			WebElement result = driver.findElement(map.getLocator("billing_nextstepbtn"));
@@ -627,7 +659,7 @@ public class PumaCommonMethods {
 			Thread.sleep(1000);
 		}   
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(map.getLocator("billing_nextstepbtn"))));
-*/
+		 */
 	}
 
 	public void step1SalutationBirthday(WebDriver driver) throws Exception
@@ -650,7 +682,7 @@ public class PumaCommonMethods {
 
 	}
 
-	public void step1CountryDropDown(WebDriver driver) throws Exception
+	public StringBuilder step1CountryDropDown(WebDriver driver) throws Exception
 
 	{
 		Select selectCountry= new Select(driver.findElement(map.getLocator("billing_selectcountry")));
@@ -660,7 +692,9 @@ public class PumaCommonMethods {
 
 		WebElement country_toggle=driver.findElement(map.getLocator("billing_countrytoggle"));
 
+		System.out.println ("This are the countries in the country drop down: ");
 
+		StringBuilder sb=new StringBuilder();
 		for(WebElement country: allCountries)
 		{
 			String countryOption = country.getAttribute("innerHTML").trim();
@@ -669,13 +703,16 @@ public class PumaCommonMethods {
 			{
 				continue;
 			}
-			System.out.println ("This are the countries in the country drop down: "+ countryOption);
+			//System.out.println(countryOption);
+			sb.append(countryOption+" ");
 
-			countries.add(countryOption);
+			//countries.add(countryOption);
 
 			//  Reporter.log("This are the states in the state drop down: "+ stateOption);		
 		}
-
+		return sb;
+	}
+		/*
 		for(int i=0;i<countries.size();i++)
 		{				
 			country_toggle.click();
@@ -691,7 +728,8 @@ public class PumaCommonMethods {
 
 
 	}
-
+*/
+		
 	public void step1ClickOnOneCountry(WebDriver driver) throws Exception
 
 	{
@@ -733,127 +771,136 @@ public class PumaCommonMethods {
 	}
 
 
-	public boolean isAlertPresent(WebDriver driver) 
+	public boolean isAlertPresent(WebDriver driver)  
 	{ String alertMsg=null;
-		try 
-		{ 
-			Alert alert = driver.switchTo().alert();
-			alertMsg =alert.getText(); 
 
-			alert.accept();
-			//  alert.dismiss();
-			//((JavascriptExecutor)driver).executeScript("window.confirm = function(msg){return true;};");
+	try 
+	{ 
+		Alert alert = driver.switchTo().alert();
+		alertMsg =alert.getText(); 
 
-			System.out.println("Alert present: alert message "+ alertMsg);
-			log.info("Alert present" +alertMsg);
+		alert.accept();
+		driver.switchTo().defaultContent();
 
-			return true; 
-		}   // try 
-		catch (NoAlertPresentException Ex) 
-		{ 
-			System.out.println("No alert");
+		//  alert.dismiss();
+		//((JavascriptExecutor)driver).executeScript("window.confirm = function(msg){return true;};");
+		System.out.println("Alert present: alert message "+ alertMsg);
+		Reporter.log("Aler is present");
+		log.info("Alert present" +alertMsg);
 
-			return false; 
-		}   // catch 
-		catch (UnhandledAlertException Ex) 
-		{ 
-			System.out.println("Modal dialog present: "+ alertMsg);
+		return true; 
+	}   
+	catch (NoAlertPresentException Ex) 
+	{ 
 
-			return false; 
-		}   // ca
-	} 
-
-	/*
-	public   boolean waitForAjax(WebDriver driver)
-	{
-		//AJAXNOTCompleteUntilCertainTimeOut
-
-		driver.findElement((map.getLocator("step2_nextbtnname")));
-
-
-		while(wait.withTimeout(duration, unit)) 
-)
-		{ 
-			if(((JavascriptExecutor)driver).executeScript("return  jQuery.active;").toString().equals("0"))
-			{ 
-			} 
-			return true; 
-
-		}
+		System.out.println("No alert!");
+		return false;
 	}
-	 */
-	public void waitForAjaxToComplete() {
 
-		try {
-/*
- *  boolean ajaxIsComplete = (boolean)((driver)JavascriptExecutor).executeScript("return jQuery.active == 0");
-        if (ajaxIsComplete)
-            break;
-        Thread.Sleep(100);
+	catch (UnhandledAlertException Ex) 
+	{ 
+		System.out.println("Modal dialog present: "+ alertMsg);
+		return true; 
+	}   
+	catch (Exception Ex) 
+	{ 
+		System.out.println(Ex);
+		return true; 
+	}   
+	} 
+	//=========================================AJAX===============================
+	public void waitForAjax (WebDriver driver,int timeoutInSeconds)
 
- */
-			ExpectedCondition<Boolean> isLoadingFalse = new ExpectedCondition<Boolean>() {
+	{
+		System.out.println("Checking active ajax calls by calling jquery.active");
 
-				@Override
+		try{
+			JavascriptExecutor jsDriver=(JavascriptExecutor)driver; 
+			if (driver instanceof JavascriptExecutor)
+			{
+				for (int i=0;i<timeoutInSeconds;i++)
+				{
+					Object numberOfAjaxConnections = jsDriver.executeScript("return jQuery.active");
+					//return should be a number
+					if (numberOfAjaxConnections instanceof Long)
+					{
+						Long n=(Long)numberOfAjaxConnections;
+						System.out.println("Number of active jquery ajax calls: "+n);
+						if (n.longValue()==0L)
+							break;
 
-				public Boolean apply(WebDriver driver) {
-
-					Object obj = ((JavascriptExecutor)
-							driver).executeScript("return !window.ajaxActive");
-
-					Object jQueryActive = ((JavascriptExecutor)
-							driver).executeScript("return jQuery.active;");
-
-					if (obj != null && obj.toString().equals("true") &&
-							jQueryActive.toString().equals("0"))
-
-						return Boolean.valueOf(true);
-
-					else
-
-						return false;
-
+					}
+					Thread.sleep(1000);
 				}
 
-			};
+			}
+			else
+			{
+				System.out.println("Web driver: "+driver +" cannot execute javascript");
+			}
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println(e);
+		}
+	}
 
-			wait.until(isLoadingFalse);
+	/*
+	public void waitForAjaxToComplete(WebDriver driver) {
 
+		try {
 
-		} catch (Exception e) {
+			 wait.until(new ExpectedCondition<Boolean>() 
+					 {
+		            public Boolean apply(WebDriver driver) 
+		            {
+		            	JavascriptExecutor js = (JavascriptExecutor)driver;
+		            	return (Boolean)js.executeScript("return jQuery.active==0");
+		            }
 
+					 }
+			 );
+		}
+
+		catch(Exception e)
+		{
 			e.printStackTrace();
-			log.debug("Error in method waitForAjaxToComplete");
-			System.out.println("Error in method waitForAjaxToComplete");
+			log.debug("Error in waitForAjaxToComplete"+e);
+			System.out.println("Error in waitForAjaxToComplete"+e);
 
 		}
 	}
-	
+
+	 */
 	public boolean isBillingZipError(WebDriver driver) throws Exception
 	{
+		WebElement zipError = null;
 		try{
-			WebElement zipError;
+			shortWait = new WebDriverWait(driver, 10);
 			shortWait.until(ExpectedConditions.visibilityOfElementLocated(map.getLocator("billing_ziperror")));
-			
-			
+
 			zipError = driver.findElement(map.getLocator("billing_ziperror"));
 			if(zipError.isDisplayed()==true)
 			{
-				
 				System.out.println("Zip field error message is dispayed");	
 				Reporter.log("Zip field error message is displayed");
 			}
 			return true;
 		}
-		
-		catch(Exception e)
+
+		catch(NoSuchElementException e)
 		{
 			e.printStackTrace();
-			System.out.println("Exception in isBillingZipError");
+			Reporter.log("Zip field error message is displayed");
+			//should fail because expected zip.Error.isDisplayed==false
+
+			Reporter.log("WARNING: valid zip is not accepted. Cannot get to 'Step2'");
+			System.out.println("Exception in isBillingZipError "+e);
+			AssertJUnit.assertEquals(zipError.isDisplayed(),false);
 			return false;
 		}
-		
-		
+
+
 		/*
 		WebElement cityError=driver.findElement(map.getLocator("billing_cityerror"));
 		WebElement streetError=driver.findElement(map.getLocator("billing_streeterror"));
@@ -861,55 +908,134 @@ public class PumaCommonMethods {
 		WebElement fnameError = driver.findElement(map.getLocator("billing_fnameerror"));
 		WebElement lnameError = driver.findElement(map.getLocator("billing_lnameerror"));
 		WebElement emailError = driver.findElement(map.getLocator("billing_emailerror"));
-*/
+		 */
 	}
-	
-	public void submitBillingForm(WebDriver driver) 
+
+	public void submitStep2(WebDriver driver) throws Exception 
 	{
-		String alertMsg=null;
-		try 
-		{ 
-//			if(((JavascriptExecutor)driver).executeScript("return  jQuery.active;").toString().equals("0"))
-		WebElement step1Next = driver.findElement(map.getLocator("billing_nextstepbtn"));
-	step1Next.click();
-			
-	//((JavascriptExecutor)driver).executeScript("document.dwfrm_singleshipping_shippingAddress.submit(); return true;");
-			Alert alert = driver.switchTo().alert();
-			alert.dismiss() ;
+		System.out.println("Executing submit Step2 method");
 
-				System.out.println("Alert present: alert message "+ alertMsg);
-				log.info("Alert present" +alertMsg);
-				Reporter.log("Alert present" +alertMsg);
-				
-				
+		String labelPayment=driver.findElement(map.getLocator("step2_legend")).getText();
+		Reporter.log("On page Step2 label for radio buttons is " + labelPayment);
+
+		WebElement total=driver.findElement(map.getLocator("step2_ordertotal"));
+		total.isDisplayed();
+		WebElement totalValue=driver.findElement(map.getLocator("step2_totalvaluexpath"));
+
+		String step2Total=totalValue.getText();
+		Reporter.log("Total on Step2 is "+step2Total);
+
+		String step2Subtotal = driver.findElement(map.getLocator("step2_subtotavalue")).getText();
+		Reporter.log("Subtotal on Step2 is"+ step2Subtotal);
 
 
-			}   // try 
-			catch (NoAlertPresentException Ex) 
-			{ 
-				System.out.println("No alert");
-				Reporter.log("No alert on Step1 page after submitting billing form");
+		WebElement  creditCard = driver.findElement(map.getLocator("step2_creditcard"));
+		creditCard.click();
+		boolean isEnabled= driver.findElement(map.getLocator("step2_nextbtnxpath")).isEnabled();
+		System.out.println("Step2 Page: next step btn is enabled "+ isEnabled);
 
+		WebDriverWait wait1 = new WebDriverWait(driver,15);
+		boolean step2Displayed=driver.findElement(map.getLocator("step2_nextbtnxpath")).isDisplayed();
+		if(step2Displayed==true)
+		{
+			System.out.println("step2 button is displayed ");
+			//action.moveToElement(driver.findElement(map.getLocator("step2_nextbtnxpath"))).build().perform();
+			//	wait1.until(ExpectedConditions.elementToBeClickable(map.getLocator("step2_nextbtnname")));
+			driver.findElement(map.getLocator("step2_nextbtnxpath")).click();
+		}
+		else
+		{	//JavascriptExecutor jsDriver=(JavascriptExecutor)driver; 
+			//jsDriver.executeScript("var y = document.getElementsByName('dwfrm_billing_save')[0]; y.type= 'text' ");
+			step2Displayed=driver.findElement(map.getLocator("step2_nextbtnname")).isDisplayed();
+			System.out.println("Step2 button is displayed "+step2Displayed);
+			//action.moveToElement(driver.findElement(map.getLocator("step2_nextbtnname"))).build().perform();
+			//	wait1.until(ExpectedConditions.elementToBeClickable(map.getLocator("step2_nextbtnname")));
+			driver.findElement(map.getLocator("step2_nextbtnname")).click();		
+		}
 
-			}   // catch 
-			catch (UnhandledAlertException Ex) 
-			{ 
-				try {
-			        (new Robot()).keyPress(java.awt.event.KeyEvent.VK_ENTER);
-
-			         (new Robot()).keyRelease(java.awt.event.KeyEvent.VK_ENTER);
-			         } catch (AWTException e) {
-			                // TODO Auto-generated catch block
-			                e.printStackTrace();
-			            }
-				System.out.println("Modal dialog present unhandled exception: "+alertMsg);
-
-
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			
-			}
 	}
 
+	public void submitStep3(WebDriver driver) throws Exception
+	{
+		
+		System.out.println("Executing submitStep3");
+		log.info("On Step 3");
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+		Reporter.log("Page title is "+ title);
+
+		wait=new WebDriverWait(driver,7);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(map.getLocator("step3_nextbtnname"))));
+
+		WebElement step3submit=driver.findElement(map.getLocator("step3_nextbtnname"));
+
+		boolean isDisplayed=step3submit.isDisplayed();
+		if (isDisplayed==true)
+		{
+			step3submit.click();
+		}
+	}
+
+	public void submitWirecard(WebDriver driver) throws Exception
+
+	{
+		System.out.println("Executing submitWirecard method");
+		log.info("executing submitWirecard");
+		
+		String title = driver.getTitle();
+		System.out.println(title);	
+		Reporter.log("Page title is "+ title);
+		/*
+	wirecard_orderNum=xpath>.//*[@id='orderinfo']/div[4]
+	wirecard_cardholder=id>cardholder
+	wirecard_cardnum=id>pan
+	wirecard_security=id>cvc
+
+	wirecard_nextbtnxpath=xpath>.//*[@id='button_next']/a
+	wirecard_nextbtnxpath2=xpath>//li[3]/a
+	<select id="expMonth" class="i_select" size="1" name="expMonth">
+		 */
+
+		WebElement cardHolder =driver.findElement(map.getLocator("wirecard_cardholder"));
+		if (cardHolder.isDisplayed()==true)
+		{
+			cardHolder.clear();
+			cardHolder.sendKeys("FNAME");
+		}
+		
+		else
+		{
+			wait=new WebDriverWait(driver, 15);
+		//	wait.until(ExpectedConditions.visibilityOfElementLocated(map.getLocator("wirecard_cardholder")));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(map.getLocator("wirecard_cardholderxpath")));
+
+			cardHolder.clear();
+			cardHolder.sendKeys("FNAME");		
+		}
+
+		//CARD NUMBER
+		WebElement cardNum=driver.findElement(map.getLocator("wirecard_cardnum"));
+		cardNum.clear();
+		cardNum.sendKeys("9400000000000003");
+
+		//security code for card 
+		WebElement securityCode = driver.findElement(map.getLocator("wirecard_security"));
+		securityCode.clear();
+		securityCode.sendKeys("123");
+
+		//month and year for expiration 
+		Select selectMonth= new Select(driver.findElement(map.getLocator("wirecard_month")));
+		selectMonth.selectByVisibleText("01");
+
+		Select selectYear = new Select(driver.findElement(map.getLocator("wirecard_year")));
+		selectYear.selectByVisibleText("2014");
+
+
+		WebElement wirecardNextBtn=driver.findElement(map.getLocator("wirecard_nextbtn"));
+		wirecardNextBtn.click();
+
+
+
+	}
 }

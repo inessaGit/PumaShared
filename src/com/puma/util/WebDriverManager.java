@@ -1,5 +1,6 @@
 package com.puma.util;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
 
@@ -24,21 +25,23 @@ public class WebDriverManager {
 	private static WebDriver driver =null;
 	private static Logger log;
 	private static DesiredCapabilities dc;
-
+	static ProfilesIni allProfiles = new ProfilesIni();
+	
+	
 	//public static WebDriver startDriver (ITestContext context){
 	public static WebDriver startDriver (){
 
-		ProfilesIni allProfiles = new ProfilesIni();
-		FirefoxProfile profile = allProfiles.getProfile("WebDriver");
-		FirefoxProfile profile2=allProfiles.getProfile("default");
-		profile2.setEnableNativeEvents(true);
-		profile.setEnableNativeEvents(true);
-
-		driver=new FirefoxDriver(profile);
-
-
-		defaultWindowSize(driver);
-		return driver;
+		    ProfilesIni allProfiles = new ProfilesIni();
+	        FirefoxProfile profile = allProfiles.getProfile("WebDriver");
+	        FirefoxProfile profile2=allProfiles.getProfile("default");
+	        profile2.setEnableNativeEvents(true);
+	        profile.setEnableNativeEvents(true);
+	 
+	        driver=new FirefoxDriver(profile);
+	         
+	         
+	     //   defaultWindowSize(driver);
+	        return driver;
 
 	}
 

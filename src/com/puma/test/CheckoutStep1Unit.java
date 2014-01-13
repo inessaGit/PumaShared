@@ -40,7 +40,7 @@ import com.puma.util.WebDriverManager;
 //@Listeners({ com.puma.util.TestListenerFailPass.class })
 
 //Required fields: First, Last, Street Number, Street, Country, City, Postal Code, Email Address
-public class CheckoutStep1Unit {
+public class CheckoutStep1Unit extends InitSuite{
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -51,12 +51,12 @@ public class CheckoutStep1Unit {
 	Logger log = WebDriverManager.LoggerGetInstance();
 	ReadingProperties rp = new ReadingProperties();
 	private ObjectMap map = new ObjectMap();
-
+/*
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
-		shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
+		shortWait = new WebDriverWait(driver, 10 );
 		action = new Actions(driver);
 
 	}
@@ -65,7 +65,7 @@ public class CheckoutStep1Unit {
 	public void oneTimeTearDown() {
 		WebDriverManager.stopDriver();
 	}
-
+*/
 	@Test(groups="initCheckoutStep1Unit")
 	public void getFromHomeToStep1() throws Exception
 	{ 

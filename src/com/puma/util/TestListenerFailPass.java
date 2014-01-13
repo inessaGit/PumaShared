@@ -60,7 +60,7 @@ public class TestListenerFailPass extends TestListenerAdapter {
 
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		DateFormat dateFormat = new SimpleDateFormat("dd_MMM_yyyy__hh_mm_ssaa");
-		String destDir = "/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/report/screenshot/FAIL/";
+		String destDir = System.getProperty("user.dir")+"/report/screenshot/FAIL/";
 		new File(destDir).mkdirs();
 		String destFile = dateFormat.format(new Date()) + ".png";
 
@@ -88,7 +88,7 @@ public class TestListenerFailPass extends TestListenerAdapter {
 
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		DateFormat dateFormat = new SimpleDateFormat("dd_MMM_yyyy__hh_mm_ssaa");
-		String destDir = "/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/report/screenshot/PASS/";
+		String destDir = System.getProperty("user.dir")+"/report/screenshot/PASS/";
 		new File(destDir).mkdirs();
 		String destFile = dateFormat.format(new Date()) + ".png";
 

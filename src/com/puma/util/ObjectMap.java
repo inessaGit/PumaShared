@@ -17,7 +17,7 @@ public class ObjectMap {
 		property=new Properties();
 		try
 		{
-			FileInputStream fis=new FileInputStream("/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/src/com/puma/config/OR.properties");
+			FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"/src/com/puma/config/OR.properties");
 			property.load(fis);
 			fis.close();
 		}

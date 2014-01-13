@@ -22,7 +22,7 @@ import com.google.common.base.Function;
 import com.puma.util.*;
 
 //@Listeners({ com.puma.util.TestListenerFailPass.class })
-public class PumaUtilNavSearch {
+public class PumaUtilNavSearch extends InitSuite {
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -30,12 +30,12 @@ public class PumaUtilNavSearch {
 
 	Actions action;
 	PumaCommonMethods pcm=new PumaCommonMethods();
-
+/*
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
-		shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
+		shortWait = new WebDriverWait(driver, 10);
 		action = new Actions(driver);
 
 	}
@@ -45,7 +45,7 @@ public class PumaUtilNavSearch {
 		WebDriverManager.stopDriver();
 	}
 
-
+*/
 	@Test(groups = "initSearch", priority = 1)
 	public void openPumaHomePage() {
 

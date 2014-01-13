@@ -45,7 +45,7 @@ import com.sun.media.sound.InvalidFormatException;
 
 @Listeners({ com.puma.util.TestListenerFailPass.class })
 
-public class CheckoutStep1 {
+public class CheckoutStep1 extends InitSuite{
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -58,12 +58,12 @@ public class CheckoutStep1 {
 	ReadingProperties rp = new ReadingProperties();
 	
 	private ObjectMap map = new ObjectMap();
-
+/*
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
-		shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
+		shortWait = new WebDriverWait(driver, 10);
 		action = new Actions(driver);
 
 	}
@@ -72,7 +72,7 @@ public class CheckoutStep1 {
 	public void oneTimeTearDown() {
 	//	WebDriverManager.stopDriver();
 	}
-
+*/
 	@Test(groups="initCheckoutStep1")
 	public void getFromHomeToStep1() throws Exception
 	{ 

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,115 +90,106 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 6 failed,   12 passed</span>
+                    <span class="method-stats">18 methods,  18 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content skipped suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({FNAME=})">step1Fields({FNAME=})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...)">step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=lnamePrague, COUNTRY=...)">step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=lnamePrague, COUNTRY=...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...)">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)">step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)">step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({FNAME=})">step1Fields({FNAME=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)">step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY...)">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -210,267 +201,18 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">com.puma.test.CheckoutEndToEnd</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({FNAME=})">
-                  </a> <!-- step1Fields({FNAME=}) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({FNAME=})</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Cannot find elements when link text is null.
-	at org.openqa.selenium.By.linkText(By.java:64)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:160)
-	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">
-                  </a> <!-- step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden, COUNTRY=Sweden, ZIP=11164, ADDRESS2=, ADDRESS1=Nils Ericssons Plan, FNAME=fnameRegSweden})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;ENTER PAYMENT ADDRESS [*Required]&gt; but was:&lt;SELECT A PAYMENT OPTION • REQUIRED&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)">
-                  </a> <!-- step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ZIP=20121, ADDRESS2=, ADDRESS1=Via Tommaso Grossi, FNAME=fnameMilan})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;ENTER PAYMENT ADDRESS [*Required]&gt; but was:&lt;SELECT A PAYMENT OPTION • REQUIRED&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)">
-                  </a> <!-- step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greece, ZIP=11742, ADDRESS2=, ADDRESS1=Syngrou Avenue, FNAME=fnameAthens})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;ENTER PAYMENT ADDRESS [*Required]&gt; but was:&lt;SELECT A PAYMENT OPTION • REQUIRED&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...)">
                   </a> <!-- step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...) -->
                   <span class="method-name">step1Fields</span>
                   <span class="parameters">({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Espana, ZIP=08001, ADDRESS2=, ADDRESS1=Carrer Sant Pau, FNAME=fnameSBarsa})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;ENTER PAYMENT ADDRESS [*Required]&gt; but was:&lt;SELECT A PAYMENT OPTION • REQUIRED&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">
-                  </a> <!-- step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinland, COUNTRY=Finland, ZIP=00100, ADDRESS2=, ADDRESS1=Pohjoisesplanadi, FNAME=fnameRegFinland})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;ENTER PAYMENT ADDRESS [*Required]&gt; but was:&lt;SELECT A PAYMENT OPTION • REQUIRED&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
-	at com.puma.test.CheckoutEndToEnd.step1Fields(CheckoutEndToEnd.java:193)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.puma.test.CheckoutEndToEnd</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">
-                  </a> <!-- step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNetherlands, COUNTRY=Netherlands, ZIP=1017 AE, ADDRESS2=, ADDRESS1=Amstel, FNAME=fnameRegNetherlands})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)">
-                  </a> <!-- step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTRY=Estonia, ZIP=10145, ADDRESS2=, ADDRESS1=Tornimae, FNAME=fnameTalinn})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)">
-                  </a> <!-- step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCopenhagen, COUNTRY=Denmark, ZIP=1253, ADDRESS2=, ADDRESS1=Toldbodgade, FNAME=fnameSCopenhagen})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -483,42 +225,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">
-                  </a> <!-- step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...) -->
+                  <a name="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">
+                  </a> <!-- step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...) -->
                   <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=Latvia, ZIP=3401, ADDRESS2=, ADDRESS1=Veca Ostmala, FNAME=fnameRegLatvia})</span>
+                  <span class="parameters">({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden, COUNTRY=Sweden, ZIP=11164, ADDRESS2=, ADDRESS1=Nils Ericssons Plan, FNAME=fnameRegSweden})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">
-                  </a> <!-- step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...) -->
+                  <a name="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">
+                  </a> <!-- step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...) -->
                   <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal, COUNTRY=Portugal, ZIP=4350-226, ADDRESS2=, ADDRESS1=Rua Padre Manuel da Nobrega, FNAME=fnameRegPortugal})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">
-                  </a> <!-- step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUNTRY=Luxembourg, ZIP=9710, ADDRESS2=, ADDRESS1=Grand Rue, FNAME=fnameRegLuxemburg})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...)">
-                  </a> <!-- step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Belgique, ZIP=1000, ADDRESS2=, ADDRESS1=De Brouckereplein, FNAME=fnameBrussel})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">
-                  </a> <!-- step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...) -->
-                  <span class="method-name">step1Fields</span>
-                  <span class="parameters">({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSlovenia, COUNTRY=Slovenia, ZIP=1000, ADDRESS2=, ADDRESS1=Slovenska Cesta, FNAME=fnameRegSlovenia})</span>
+                  <span class="parameters">({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinland, COUNTRY=Finland, ZIP=00100, ADDRESS2=, ADDRESS1=Pohjoisesplanadi, FNAME=fnameRegFinland})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -531,10 +249,66 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">
+                  </a> <!-- step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal, COUNTRY=Portugal, ZIP=4350-226, ADDRESS2=, ADDRESS1=Rua Padre Manuel da Nobrega, FNAME=fnameRegPortugal})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)">
                   </a> <!-- step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...) -->
                   <span class="method-name">step1Fields</span>
                   <span class="parameters">({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, COUNTRY=Hungary, ZIP=1073, ADDRESS2=, ADDRESS1=Erzsebet korut, FNAME=fnameRegHungary})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">
+                  </a> <!-- step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNetherlands, COUNTRY=Netherlands, ZIP=1017 AE, ADDRESS2=, ADDRESS1=Amstel, FNAME=fnameRegNetherlands})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)">
+                  </a> <!-- step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ZIP=20121, ADDRESS2=, ADDRESS1=Via Tommaso Grossi, FNAME=fnameMilan})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">
+                  </a> <!-- step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSlovenia, COUNTRY=Slovenia, ZIP=1000, ADDRESS2=, ADDRESS1=Slovenska Cesta, FNAME=fnameRegSlovenia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">
+                  </a> <!-- step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUNTRY=Luxembourg, ZIP=9710, ADDRESS2=, ADDRESS1=Grand Rue, FNAME=fnameRegLuxemburg})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({FNAME=})">
+                  </a> <!-- step1Fields({FNAME=}) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({FNAME=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">
+                  </a> <!-- step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=Latvia, ZIP=3401, ADDRESS2=, ADDRESS1=Veca Ostmala, FNAME=fnameRegLatvia})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -545,12 +319,44 @@
                   <span class="parameters">({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia, COUNTRY=Slovakia, ZIP=040 01, ADDRESS2=, ADDRESS1=Hlavna, FNAME=fnameRegSlovakia})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY...)">
+                  </a> <!-- step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Belgique, ZIP=1000, ADDRESS2=, ADDRESS1=De Brouckereplein, FNAME=fnameBrussel})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)">
+                  </a> <!-- step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTRY=Estonia, ZIP=10145, ADDRESS2=, ADDRESS1=Tornimae, FNAME=fnameTalinn})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)">
+                  </a> <!-- step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greece, ZIP=11742, ADDRESS2=, ADDRESS1=Syngrou Avenue, FNAME=fnameAthens})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)">
+                  </a> <!-- step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCopenhagen, COUNTRY=Denmark, ZIP=1253, ADDRESS2=, ADDRESS1=Toldbodgade, FNAME=fnameSCopenhagen})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-skipped -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/_2/pb85wgk175l660128q0hftvh0000gp/T/testng-eclipse-2099505447/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/_2/pb85wgk175l660128q0hftvh0000gp/T/testng-eclipse-451945605/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -611,80 +417,80 @@ data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'step1Fields')
 data.setCell(0, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(0, 3, 15318);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'step1Fields')
 data.setCell(1, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(1, 3, 15234);
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'step1Fields')
 data.setCell(2, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(2, 3, 14263);
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'step1Fields')
 data.setCell(3, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(3, 3, 13555);
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'step1Fields')
 data.setCell(4, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(4, 3, 10431);
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'step1Fields')
 data.setCell(5, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(5, 3, 9385);
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'step1Fields')
 data.setCell(6, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(6, 3, 9308);
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'step1Fields')
 data.setCell(7, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(7, 3, 9278);
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'step1Fields')
 data.setCell(8, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(8, 3, 9226);
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'step1Fields')
 data.setCell(9, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(9, 3, 8956);
+data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'step1Fields')
 data.setCell(10, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(10, 3, 8387);
+data.setCell(10, 3, 1);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'step1Fields')
 data.setCell(11, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(11, 3, 8032);
+data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'step1Fields')
 data.setCell(12, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(12, 3, 7890);
+data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'step1Fields')
 data.setCell(13, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(13, 3, 5512);
+data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'step1Fields')
 data.setCell(14, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(14, 3, 5459);
+data.setCell(14, 3, 0);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'step1Fields')
 data.setCell(15, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(15, 3, 5431);
+data.setCell(15, 3, 0);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'step1Fields')
 data.setCell(16, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(16, 3, 5396);
+data.setCell(16, 3, 0);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'step1Fields')
 data.setCell(17, 2, 'com.puma.test.CheckoutEndToEnd')
-data.setCell(17, 3, 2627);
+data.setCell(17, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 12 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -695,131 +501,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_21_23AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">No alert on Step1 page after submitting billing form</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_11_39AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">No alert on Step1 page after submitting billing form</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_10_34AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=lnamePrague, COUNTRY=...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">No alert on Step1 page after submitting billing form</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_07_43AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_17_18AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_23_55AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_18_37AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">No alert on Step1 page after submitting billing form</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_06_30AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_26_37AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_22_38AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_19_58AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/PASS/06_Jan_2014__01_25_14AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({FNAME=})</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_30_04AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_29_00AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_16_04AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_14_42AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_13_18AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Alert presentnull</span>
-                <span class="reporter-method-output">Saved <a href=../screenshot/FAIL/06_Jan_2014__01_27_51AM.png>Screenshot</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -836,170 +517,84 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.puma.test.CheckoutEndToEnd</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">oneTimeSetUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">9226 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getToStep1</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY=Be...)</span>
-                <span class="method-start">82420 ms</span>
+                <span class="method-name">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9.255482255E9, EMAIL=test@yahoo.com, LNAME=lnameBrussel, COUNTRY...)</span>
+                <span class="method-start">12949 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">88431 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=lnamePrague, COUNTRY=...)</span>
-                <span class="method-start">155715 ms</span>
+                <span class="method-start">12952 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">161652 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=lnameSCope...)</span>
-                <span class="method-start">326678 ms</span>
+                <span class="method-start">12954 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">332580 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=lnameTalinn, COUNTR...)</span>
-                <span class="method-start">391753 ms</span>
+                <span class="method-start">12955 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">397616 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=Barsa, COUNTRY=Esp...)</span>
-                <span class="method-start">486366 ms</span>
+                <span class="method-start">12957 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">496153 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=lnAthens, COUNTRY=Greec...)</span>
-                <span class="method-start">564408 ms</span>
+                <span class="method-start">12959 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">580121 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=lneMilan, COUNTRY=Italy, ...)</span>
-                <span class="method-start">651783 ms</span>
+                <span class="method-start">12961 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">662603 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</span>
-                <span class="method-start">727147 ms</span>
+                <span class="method-start">12963 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">736651 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</span>
-                <span class="method-start">799442 ms</span>
+                <span class="method-start">12965 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">815161 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)</span>
-                <span class="method-start">887835 ms</span>
+                <span class="method-start">12966 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">896212 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</span>
-                <span class="method-start">967482 ms</span>
+                <span class="method-start">12968 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">981594 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)</span>
-                <span class="method-start">1047016 ms</span>
+                <span class="method-start">12970 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1056813 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</span>
-                <span class="method-start">1124446 ms</span>
+                <span class="method-start">12971 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1132972 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)</span>
-                <span class="method-start">1197122 ms</span>
+                <span class="method-start">12973 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1211854 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</span>
-                <span class="method-start">1285628 ms</span>
+                <span class="method-start">12975 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1295351 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</span>
-                <span class="method-start">1360701 ms</span>
+                <span class="method-start">12978 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1369489 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</span>
-                <span class="method-start">1428219 ms</span>
+                <span class="method-start">12980 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">getFromHomeToStep1</span>
-                <span class="method-start">1437888 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">step1Fields({FNAME=})</span>
-                <span class="method-start">1498968 ms</span>
+                <span class="method-start">12983 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-suite after">
-                <span class="method-name">oneTimeTearDown</span>
-                <span class="method-start">1502112 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

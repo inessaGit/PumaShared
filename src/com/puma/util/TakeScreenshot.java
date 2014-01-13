@@ -50,7 +50,7 @@ public class TakeScreenshot {
 	        
 	        
 	         File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	           String path= "/Users/igonzalez/Desktop/WORKING_WITH_ECLIPSE/Puma/report/screenshot/UserGen/" + screenshotName;
+	           String path=System.getProperty("user.dir")+ "/report/screenshot/UserGen/" + screenshotName;
 	           File target =new File (path);
 	          
 	         try {
