@@ -522,7 +522,7 @@ public class PumaCommonMethods {
 	/************************************************************CART PAGE*****************************/
 
 
-	public void fromMiniCartToCart(WebDriver driver) throws Exception
+public void fromMiniCartToCart(WebDriver driver) throws Exception
 	{
 
 		driver.findElement(map.getLocator("pdp_addtocart")).click();
@@ -530,7 +530,8 @@ public class PumaCommonMethods {
 		shortWait = new WebDriverWait(driver,8);
 		
 		action.moveToElement(link).build().perform();
-		shortWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='mini-cart']/div[2]/div[2]/a[2]")));
+		shortWait.until(ExpectedConditions.visibilityOfElementLocated(map.getLocator("pdp_minicartlink")));
+		Thread.sleep(1000);
 
 
 		driver.findElement(map.getLocator("pdp_minicartlink")).click();
