@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -106,7 +107,11 @@ public class CheckoutEndToEnd {
 		//click on 'checkout ' button
 		pcm.checkoutSignInGuest(driver);
 	}
+	@AfterSuite
+	public void sendOrdersToTxt()
+	{
 
+	}
 	/***************This is  a method to fill out fields with diff data sets; it does NOT INCLUDE DROP DOWNS!!******/
 	/***************This is  a method to fill out fields with diff data sets; it does NOT INCLUDE DROP DOWNS!!******/
 
@@ -194,23 +199,18 @@ public class CheckoutEndToEnd {
 			System.out.println(e);
 		}
 
-		Thread.sleep(4000);
 		boolean enabled =driver.findElement(By.id("checkout-continue")).isDisplayed();//this works
 		System.out.println("step1 button is displayed "+ enabled);
 
 		if(enabled==true)
 		{
-			//Thread.sleep(3000);
 			driver.findElement(By.id("checkout-continue")).click();//this works
-
 		}
 		else
 		{
 			pcm.waitForAjax(driver, 15);
-
 			pcm.waitToLoadElement(driver,(By.id("checkout-continue")),15);
 			driver.findElement(By.id("checkout-continue")).click();//this works
-
 		}
 
 		//but if wrap in a method it does not work
@@ -218,34 +218,11 @@ public class CheckoutEndToEnd {
 		pcm.isAlertPresent(driver);
 
 		pcm.submitStep2(driver);
-		//pcm.waitForAjax(driver, 15);
 		pcm.submitStep3(driver);
 
 		pcm.submitWirecard(driver);
-
-		/*	try{
-				pcm.waitToLoadElement(driver, map.getLocator("step2_nextbtnname"), 8);	
-				AssertJUnit.assertEquals(true, driver.findElement(map.getLocator("step2_nextbtnname")).isDisplayed());
-			}
-			catch(NoSuchElementException e)
-			{
-				//shortWait.until(ExpectedConditions.visibilityOfElementLocated(map.getLocator("billing_ziperror")));
-
-				pcm.waitToLoadElement(driver, map.getLocator("billing_ziperror"), 8);	
-
-
-		//	WebElement zipError = driver.findElement(map.getLocator("billing_ziperror"));
-				if(zipError.isDisplayed()==true)
-				{
-
-					System.out.println("Zip field error message is dispayed");	
-					Reporter.log("Zip field error message is displayed");
-					AssertJUnit.assertEquals(zipError.isDisplayed(),false);
-					Reporter.log("WARNING: valid zip is not accepted");
-				}				
-
-				}
-		 */
+		String order=pcm.submitConfirmation(driver);
+		pcm.appendToTxt(System.getProperty("user.dir")+"/src/com/puma/config/SubmittedOrders.txt", order);
 	}
 
 	/*

@@ -1,7 +1,6 @@
-These are the countries in the dropdown list on 'Checkout Step1' page: 
-Select...
 Belgique
-Czech Republic
+Czech
+Republic
 Denmark
 Estonia
 Espana
@@ -18,5 +17,4 @@ Portugal
 Slovakia
 Slovenia
 Sweden
-
-=============================2014-01-11 18:13:27.337================================
+=====================2014-01-19 02:20:59.505================================
