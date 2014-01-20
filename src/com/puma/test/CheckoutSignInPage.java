@@ -16,7 +16,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -30,7 +32,7 @@ import com.puma.util.WebDriverManager;
 import com.sun.media.sound.InvalidFormatException;
 
 
-public class CheckoutSignInPage extends InitSuite {
+public class CheckoutSignInPage  {
 	WebDriver driver;
 	private WebDriverWait wait;
 	private WebDriverWait shortWait;
@@ -42,8 +44,8 @@ public class CheckoutSignInPage extends InitSuite {
 	ReadingProperties rp = new ReadingProperties();
 	
 	private ObjectMap map = new ObjectMap();
-/*
-	@BeforeSuite
+
+	@BeforeTest
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
@@ -52,11 +54,11 @@ public class CheckoutSignInPage extends InitSuite {
 
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void oneTimeTearDown() {
 	WebDriverManager.stopDriver();
 	}
-*/
+
 	@Test(groups="initSignIn")
 	public void getFromHomeToStep1() throws Exception
 	{ 

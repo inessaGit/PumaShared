@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
@@ -59,7 +60,6 @@ public class PumaCommonMethods {
 	BufferedWriter bw;
 	PrintWriter pw ;
 
-
 	/*****************************************************START OF ALL COMMON METHODS *****************************/
 
 
@@ -67,6 +67,8 @@ public class PumaCommonMethods {
 	//example: type(driver, By.name("txtUserName"), username);
 
 	public static void type (WebDriver driver, By locator, String text) {
+		
+		
 		WebElement element = driver.findElement(locator);
 		element.clear();
 		element.sendKeys(text);
@@ -259,7 +261,54 @@ public class PumaCommonMethods {
 		}		
 
 	}
+	public void appendToTxt(String filepath, StringBuilder data)
+	{ 
+		try 
+		{
+			String [] lines=data.toString().split(" ");
 
+			File file = new File(filepath);
+			// if file doesnt exists, then create it
+			if (!file.exists()) 
+			{
+				file.createNewFile();
+			}
+
+			fw=	new FileWriter(filepath, true);
+			bw=	new BufferedWriter(fw);
+			pw = new PrintWriter(bw);
+
+			for(int i=0; i<lines.length;i++)
+			{
+				pw.print("--------------------------------------------------------------\n");
+				pw.print(lines[i]);
+				bw.newLine();							
+			}
+
+			String timestamp = TimeUtil.getTimeStamp();
+			bw.write("----------------------------"+timestamp+"------------------------------");
+			System.out.println("Done writing using FileWriter");
+
+
+			bw.close();
+			fw.close();
+			pw.close();
+
+		}
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
+
+		finally
+		{
+			System.out.println("Done appending to 'txt' file");
+
+			pw.close();
+
+		}		
+
+	}
 	public void writeToTxt(String filepath, StringBuilder data)
 	{
 		try
@@ -279,6 +328,7 @@ public class PumaCommonMethods {
 			{
 				bw.write(lines[i]);
 				bw.newLine();
+				
 			}
 
 			String timestamp = TimeUtil.getTimeStamp();
@@ -297,7 +347,54 @@ public class PumaCommonMethods {
 			System.out.println("Done writing to 'txt' file");
 		}
 
+	}
+	
+	public void writeToTxt(String filepath, StringBuilder data, String delimiter)
+	{
+		try
+		{
+			String [] lines = null;
+				
+		    if (delimiter.equalsIgnoreCase(" "))
+		    {
+				lines=data.toString().split(" ");
+		    }
+           
+		    else if (delimiter.equalsIgnoreCase(","))
+		    {
+				lines=data.toString().split(",");
+		    }
+			File file = new File (filepath);
+			if( file.exists()!=true)
+			{
+				file.createNewFile();
+			}
 
+			FileWriter fw = new FileWriter (file);
+			BufferedWriter bw = new BufferedWriter (fw);
+
+			for(int i=0; i<lines.length;i++)
+			{
+				bw.write(lines[i]);
+				bw.newLine();
+				
+			}
+
+			String timestamp = TimeUtil.getTimeStamp();
+			bw.write("----------------------------"+timestamp+"------------------------------");
+
+			bw.close();
+		}
+
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			System.out.println("Done writing to 'txt' file using FileWriter");
+		}
+		
 	}
 	public void readTxtFile(String filepath)
 	{
@@ -466,9 +563,23 @@ public class PumaCommonMethods {
 		WebElement mensSubcat=		driver.findElement(map.getLocator("nav_apparel"));
 		action.moveToElement(mensSubcat).click().build().perform();
 
-
 	}
 
+	public void homePageMainNavEurope(WebDriver driver) throws Exception
+	{
+		openPumaHomePage(driver);
+
+		action =new Actions(driver);
+		WebElement europe=driver.findElement(map.getLocator("header_europe"));
+		action.moveToElement(europe).build().perform();
+				
+		WebElement mensCat=driver.findElement(map.getLocator("nav_men"));
+		action.moveToElement(mensCat).build().perform();
+		//wait.until(ExpectedConditions.presenceOfElementLocated(map.getLocator("nav_apparel")));
+		WebElement mensSubcat=		driver.findElement(map.getLocator("nav_apparel"));
+		action.moveToElement(mensSubcat).click().build().perform();
+
+	}
 	/************************************************************SUBCAT PAGE*****************************/
 	/************************************************************SUBCAT PAGE*****************************/
 	public void subcatPageUI(WebDriver driver) throws Exception
@@ -1010,7 +1121,7 @@ public class PumaCommonMethods {
 		else
 		{
 			/*(new WebDriverWait(driver,10)).until(new ExpectedCondition<Boolean>()
-					 {public Boolean apply(WebDriver d){JavascriptExecutor js =(JavascriptExecutor) d;
+					 {public Boolean apply(WebDriver driver){JavascriptExecutor js =(JavascriptExecutor) driver;
 					 return(Boolean) js.executeScript("return $$.active == 0");}}); 
 			 */
 			System.out.println("wirecard success button cannot be located.");

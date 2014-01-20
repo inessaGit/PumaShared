@@ -24,7 +24,7 @@ import com.puma.util.WebDriverManager;
 
 //@Listeners({ com.puma.util.TestListenerFailPass.class })
 
-public class PDPTest extends InitSuite  {
+public class PDPTest   {
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -34,7 +34,7 @@ public class PDPTest extends InitSuite  {
 	PumaCommonMethods pcm=new PumaCommonMethods();
 
 	String tshirt="562941";
-/*
+
 	@BeforeClass
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
@@ -46,7 +46,7 @@ public class PDPTest extends InitSuite  {
 	public void oneTimeTearDown() {
 		WebDriverManager.stopDriver();
 	}
-*/
+
 	@Test(groups="init")
 	public void homePageMainNav() throws Exception
 	{

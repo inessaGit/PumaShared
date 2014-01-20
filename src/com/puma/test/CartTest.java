@@ -16,7 +16,7 @@ import com.puma.util.ReadingProperties;
 import com.puma.util.TakeScreenshot;
 import com.puma.util.WebDriverManager;
 
-public class CartTest extends InitSuite {
+public class CartTest {
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -27,7 +27,7 @@ public class CartTest extends InitSuite {
 	//Logger log = WebDriverManager.LoggerGetInstance();
 	//ReadingProperties rp = new ReadingProperties();
 	//private ObjectMap map = new ObjectMap();
-/*
+
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
@@ -41,7 +41,7 @@ public class CartTest extends InitSuite {
 	public void oneTimeTearDown() {
 		WebDriverManager.stopDriver();
 	}
-*/
+
 	//dependsOnGroups="pdp", 
 	@Test(groups = "initCart", priority = 1)
 	public void getFromHomeToCart() throws Exception {

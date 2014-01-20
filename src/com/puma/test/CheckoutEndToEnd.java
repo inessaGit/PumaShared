@@ -222,6 +222,8 @@ public class CheckoutEndToEnd {
 
 		pcm.submitWirecard(driver);
 		String order=pcm.submitConfirmation(driver);
+		
+		//writing order numbers to txt
 		pcm.appendToTxt(System.getProperty("user.dir")+"/src/com/puma/config/SubmittedOrders.txt", order);
 	}
 

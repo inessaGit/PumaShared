@@ -78,7 +78,7 @@ public class InitPumaTest {
 
 		//Nils Ericssons Plan 4, Stockholm 11164, Sweden
 		{"fnameRegSweden", "regLname", "4524532738", "testSweden@hotmail.com", "11164", "Nils Ericssons Plan", null, "4", "Stockholm", "Sweden"},
-/*==============BEGINING OF BIG 5 COUNTRIES======================== 
+/*==============BEGINING OF BIG 5 COUNTRIES======================== */
 		
 		//Hofwisenstrasse 30, Rümlang 8153, Switzerland tel: 0871-423-4917 SPECIAL CHAR IN CITY and special phone!
 		{"fnameRegSwitzerland", "regLname", "0871-423-4917", "testSweden@hotmail.com", "8153", "Hofwisenstrasse", null, "30", "Rümlang", "Switzerland"},
@@ -105,7 +105,7 @@ public class InitPumaTest {
 		
 		//31 Avenue George V, 75008 Paris, France
 		{"fnameRegFrance", "regLname", "0874234917", "testparis@hotmail.com", "75008", "Avenue George V", null, "31", "Paris", "France"},
-*/
+
 		
 	};
 

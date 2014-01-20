@@ -11,25 +11,30 @@ import com.puma.util.WebDriverManager;
 
 public class InitSuite {
 
-	WebDriver driver;
-	private WebDriverWait wait;
-	private WebDriverWait shortWait;
+        WebDriver driver;
+        private WebDriverWait wait;
+        private WebDriverWait shortWait;
 
-	Actions action;
-	PumaCommonMethods pcm=new PumaCommonMethods();
+        Actions action;
+        PumaCommonMethods pcm=new PumaCommonMethods();
 
-	@BeforeSuite
-	public void oneTimeSetUp() {
-		driver = WebDriverManager.startDriver();
-		wait = new WebDriverWait(driver, 20);
-		shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
-		action = new Actions(driver);
+        @BeforeSuite
+        public void oneTimeSetUp() {
+                driver = WebDriverManager.startDriver();
+                wait = new WebDriverWait(driver, 20);
+                shortWait = new WebDriverWait(driver, 10 /* timeout in seconds */);
+                action = new Actions(driver);
 
-	}
+        }
 
-	@AfterSuite
-	public void oneTimeTearDown() {
-		WebDriverManager.stopDriver();
-	}
+        @AfterSuite
+        public void oneTimeTearDown() {
+                WebDriverManager.stopDriver();
+        }
+        
+        public WebDriver getDriverObject()
+        {
+        	return driver;
+        }
 
 }

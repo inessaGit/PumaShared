@@ -26,7 +26,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -40,7 +42,7 @@ import com.puma.util.WebDriverManager;
 //@Listeners({ com.puma.util.TestListenerFailPass.class })
 
 //Required fields: First, Last, Street Number, Street, Country, City, Postal Code, Email Address
-public class CheckoutStep1Unit extends InitSuite{
+public class CheckoutStep1Unit {
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -51,8 +53,8 @@ public class CheckoutStep1Unit extends InitSuite{
 	Logger log = WebDriverManager.LoggerGetInstance();
 	ReadingProperties rp = new ReadingProperties();
 	private ObjectMap map = new ObjectMap();
-/*
-	@BeforeSuite
+
+	@BeforeTest
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
 		wait = new WebDriverWait(driver, 20);
@@ -61,11 +63,11 @@ public class CheckoutStep1Unit extends InitSuite{
 
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void oneTimeTearDown() {
 		WebDriverManager.stopDriver();
 	}
-*/
+
 	@Test(groups="initCheckoutStep1Unit")
 	public void getFromHomeToStep1() throws Exception
 	{ 

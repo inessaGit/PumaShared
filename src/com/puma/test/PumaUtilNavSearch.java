@@ -21,8 +21,8 @@ import org.apache.log4j.Logger;
 import com.google.common.base.Function;
 import com.puma.util.*;
 
-//@Listeners({ com.puma.util.TestListenerFailPass.class })
-public class PumaUtilNavSearch extends InitSuite {
+@Listeners({ com.puma.util.TestListenerFailPass.class })
+public class PumaUtilNavSearch  {
 
 	WebDriver driver;
 	private WebDriverWait wait;
@@ -30,7 +30,7 @@ public class PumaUtilNavSearch extends InitSuite {
 
 	Actions action;
 	PumaCommonMethods pcm=new PumaCommonMethods();
-/*
+
 	@BeforeSuite
 	public void oneTimeSetUp() {
 		driver = WebDriverManager.startDriver();
@@ -45,7 +45,7 @@ public class PumaUtilNavSearch extends InitSuite {
 		WebDriverManager.stopDriver();
 	}
 
-*/
+
 	@Test(groups = "initSearch", priority = 1)
 	public void openPumaHomePage() {
 

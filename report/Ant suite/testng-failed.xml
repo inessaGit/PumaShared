@@ -3,38 +3,24 @@
 <suite name="Failed suite [Ant suite]">
   <test name="Ant test(failed)">
     <classes>
-      <class name="com.puma.util.GatherInfo">
-        <methods>
-          <include name="oneTimeTearDown"/>
-          <include name="oneTimeSetUp"/>
-        </methods>
-      </class> <!-- com.puma.util.GatherInfo -->
-      <class name="com.puma.test.CheckoutSignInPage">
-        <methods>
-          <include name="getFromHomeToStep1"/>
-        </methods>
-      </class> <!-- com.puma.test.CheckoutSignInPage -->
       <class name="com.puma.test.CartTest">
         <methods>
           <include name="fromMiniCartToCart"/>
           <include name="getFromHomeToCart"/>
+          <include name="oneTimeSetUp"/>
         </methods>
       </class> <!-- com.puma.test.CartTest -->
-      <class name="com.puma.test.CheckoutSignIn">
+      <class name="com.puma.test.HomeEuropeHeader">
         <methods>
-          <include name="checkoutSignInRegistered" invocation-numbers="0 1 2 3 4"/>
-          <include name="interstCheckoutPage"/>
-          <include name="getToPDP"/>
-          <include name="checkoutSignInGuest"/>
+          <include name="testHeader"/>
         </methods>
-      </class> <!-- com.puma.test.CheckoutSignIn -->
-      <class name="com.puma.test.CheckoutEndToEnd">
+      </class> <!-- com.puma.test.HomeEuropeHeader -->
+      <class name="com.puma.test.CheckoutEndToEndBigFive">
         <methods>
-          <include name="oneTimeTearDown"/>
-          <include name="step1Fields" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"/>
+          <include name="checkoutForFiveCountries"/>
           <include name="getToStep1"/>
         </methods>
-      </class> <!-- com.puma.test.CheckoutEndToEnd -->
+      </class> <!-- com.puma.test.CheckoutEndToEndBigFive -->
       <class name="com.puma.test.CheckoutStep1Unit">
         <methods>
           <include name="step1FieldsLname"/>
@@ -49,19 +35,16 @@
           <include name="step1FieldsAddress1"/>
         </methods>
       </class> <!-- com.puma.test.CheckoutStep1Unit -->
-      <class name="com.puma.test.PumaUtilNavSearch">
+      <class name="com.puma.test.GetToStep1">
         <methods>
-          <include name="openPumaHomePage"/>
-          <include name="searchForPants"/>
-          <include name="searchForSku"/>
-        </methods>
-      </class> <!-- com.puma.test.PumaUtilNavSearch -->
-      <class name="com.puma.test.CheckoutStep1">
-        <methods>
-          <include name="step1Fields"/>
           <include name="getFromHomeToStep1"/>
         </methods>
-      </class> <!-- com.puma.test.CheckoutStep1 -->
+      </class> <!-- com.puma.test.GetToStep1 -->
+      <class name="com.puma.test.CheckoutEndToEnd">
+        <methods>
+          <include name="step1Fields"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutEndToEnd -->
       <class name="com.puma.test.PDPTest">
         <methods>
           <include name="pdpPageSizeChart"/>
@@ -74,6 +57,31 @@
           <include name="homePageMainNav"/>
         </methods>
       </class> <!-- com.puma.test.PDPTest -->
+      <class name="com.puma.test.CheckoutStep1">
+        <methods>
+          <include name="step1Fields"/>
+          <include name="getFromHomeToStep1"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutStep1 -->
+      <class name="com.puma.test.CheckoutSignInPage">
+        <methods>
+          <include name="getFromHomeToStep1"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutSignInPage -->
+      <class name="com.puma.test.PumaUtilNavSearch">
+        <methods>
+          <include name="openPumaHomePage"/>
+          <include name="searchForPants"/>
+          <include name="searchForSku"/>
+        </methods>
+      </class> <!-- com.puma.test.PumaUtilNavSearch -->
+      <class name="com.puma.test.CheckoutSignIn">
+        <methods>
+          <include name="checkoutSignInRegistered"/>
+          <include name="getToPDP"/>
+          <include name="checkoutSignInGuest"/>
+        </methods>
+      </class> <!-- com.puma.test.CheckoutSignIn -->
     </classes>
   </test> <!-- Ant test(failed) -->
 </suite> <!-- Failed suite [Ant suite] -->

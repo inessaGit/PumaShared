@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.puma.test.CheckoutEndToEnd">
+      <class name="com.puma.test.HomeEuropeHeader">
         <methods>
           <include name="oneTimeTearDown"/>
-          <include name="step1Fields" invocation-numbers="1 2 7 8"/>
-          <include name="getToStep1"/>
+          <include name="oneTimeSetUp"/>
+          <include name="testHeader"/>
         </methods>
-      </class> <!-- com.puma.test.CheckoutEndToEnd -->
+      </class> <!-- com.puma.test.HomeEuropeHeader -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
