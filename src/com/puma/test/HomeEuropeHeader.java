@@ -74,7 +74,7 @@ public class HomeEuropeHeader  {
 			e.click();
 			List<WebElement> lang=new ArrayList<WebElement>();
 			//	lang=driver.findElements(By.cssSelector("ul.locale-container.active > li.locale > a"));
-			lang=driver.findElements(By.cssSelector("li.locale > a"));
+			lang=driver.findElements(map.getLocator("header_countrylanguagecss"));
 			System.out.println("Country is: "+country);
 
 			for(WebElement l:lang)
@@ -131,7 +131,7 @@ public class HomeEuropeHeader  {
 			e.click();
 			List<WebElement> lang=new ArrayList<WebElement>();
 			//	lang=driver.findElements(By.cssSelector("ul.locale-container.active > li.locale > a"));
-			lang=driver.findElements(By.cssSelector("li.locale > a"));
+			lang=driver.findElements(map.getLocator("header_countrylanguagecss"));
 			System.out.println("Country is: "+country);
 
 			for(WebElement l:lang)
