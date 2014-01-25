@@ -1,0 +1,45 @@
+Apache POI
+Copyright 2009 The Apache Software Foundation
+
+This product includes software developed by
+The Apache Software Foundation (http://www.apache.org/).
+
+This product contains the DOM4J library (http://www.dom4j.org).
+Copyright 2001-2005 (C) MetaStuff, Ltd. All Rights Reserved.
+
+This product contains parts that were originally based on software from BEA.
+Copyright (c) 2000-2003, BEA Systems, <http://www.bea.com/>.
+
+This product contains W3C XML Schema documents. Copyright 2001-2003 (c)
+World Wide Web Consortium (Massachusetts Institute of Technology, European
+Research Consortium for Informatics and Mathematics, Keio University)
+
+This product contains the Piccolo XML Parser for Java
+(http://piccolo.sourceforge.net/). Copyright 2002 Yuval Oren.
+
+This product contains the chunks_parse_cmds.tbl file from the vsdump program.
+Copyright (C) 2006-2007 Valek Filippov (frob@df.ru)
+
+
+Notice that additional jars are needed. 
+
+Here is the component map: 
+POIFS  	poi-version-yyyymmdd.jar  	poi  	
+HPSF poi-version-yyyymmdd.jar poi 
+HSSF poi-version-yyyymmdd.jar poi 
+XSSF poi-ooxml-version-yyyymmdd.jar AND  poi-ooxml_schemas 
+HLSF poi-scratchpad-version-yyyymmdd.jar poi-scratchpad 
+HWPF poi-scratchpad-version-yyyymmdd.jar poi-scratchpad 
+HDGF poi-scratchpad-version-yyyymmdd.jar poi-scratchpad 
+HPBF poi-scratchpad-version-yyyymmdd.jar poi-scratchpad 
+HSMF poi-scratchpad-version-yyyymmdd.jar poi-scratchpad 
+
+
+FOR XLSX FILES NEED THIS JARS ON THE CLASSPATH **VERSIONS MIGHT CHANGE 
+
+poi-3.5-beta7-20090612.jar
+poi-ooxml-3.5-beta7-20090613.jar
+openxml4j-1.0-beta.jar
+xmlbeans-2.3.0.jar
+ooxml-schemas-1.0.jar
+dom4j-1.6.1.jar

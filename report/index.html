@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Ant_suite">
+              <span class="suite-name border-skipped">Ant suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Ant_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Ant_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Ant_suite">
+                    <span>14 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Ant_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Ant_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Ant_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Ant_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods,  60 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Ant_suite" class="hide-methods skipped suite-Ant_suite"> (hide)</a> <!-- hide-methods skipped suite-Ant_suite -->
+                      <a href="#" panel-name="suite-Ant_suite" class="show-methods skipped suite-Ant_suite"> (show)</a> <!-- show-methods skipped suite-Ant_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Ant_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Un...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Un...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNT...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Uni...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Uni...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com,...)">checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, CO...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, CO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, CO...)">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, CO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEndBigFive" hash-for-method="checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNT...)">checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInGuest">checkoutSignInGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInRegistered(software@yahoo.com, kipling1, Sorry, this does not match our records.)">checkoutSignInRegistered(software@yahoo.com, kipling1, Sorry, this does not match our records.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInRegistered(, , eror msg)">checkoutSignInRegistered(, , eror msg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInRegistered(software_test22@hotmail.com, kipling22, err msg)">checkoutSignInRegistered(software_test22@hotmail.com, kipling22, err msg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInRegistered(software_test22@hotmail.com, kipling1, Checkout)">checkoutSignInRegistered(software_test22@hotmail.com, kipling1, Checkout)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignIn" hash-for-method="checkoutSignInRegistered(software_test, kipling1, Sorry, this does not match our records.)">checkoutSignInRegistered(software_test, kipling1, Sorry, this does not match our records.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CartTest" hash-for-method="fromMiniCartToCart">fromMiniCartToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CartTest" hash-for-method="getFromHomeToCart">getFromHomeToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="getFromHomeToStep1">getFromHomeToStep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.GetToStep1" hash-for-method="getFromHomeToStep1">getFromHomeToStep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1" hash-for-method="getFromHomeToStep1">getFromHomeToStep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutSignInPage" hash-for-method="getFromHomeToStep1">getFromHomeToStep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="homePageMainNav">homePageMainNav</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PumaUtilNavSearch" hash-for-method="openPumaHomePage">openPumaHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="pdpPageSelectColor">pdpPageSelectColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="pdpPageSelectQuantity">pdpPageSelectQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="pdpPageSelectSize">pdpPageSelectSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="pdpPageSizeChart">pdpPageSizeChart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="pdpPageZoomIn">pdpPageZoomIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.HomeEuropeHeader" hash-for-method="printEuropeCountries">printEuropeCountries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PumaUtilNavSearch" hash-for-method="searchForPants">searchForPants</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PumaUtilNavSearch" hash-for-method="searchForSku">searchForSku</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1CountryDropDown">step1CountryDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNT...)">step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1" hash-for-method="step1Fields">step1Fields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy...)">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)">step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)">step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Gr...)">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Gr...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)">step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=...)">step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTR...)">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTR...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCope...)">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutEndToEnd" hash-for-method="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Be...)">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Be...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsAddress1">step1FieldsAddress1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsCity">step1FieldsCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsEmail">step1FieldsEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsLname">step1FieldsLname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsName">step1FieldsName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1FieldsZip">step1FieldsZip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1NextStepBtnUI">step1NextStepBtnUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.CheckoutStep1Unit" hash-for-method="step1SalutationBirthday">step1SalutationBirthday</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="subcatPageFunct">subcatPageFunct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.PDPTest" hash-for-method="subcatPageUI">subcatPageUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Ant_suite" title="com.puma.test.HomeEuropeHeader" hash-for-method="testHeader">testHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Ant_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Ant_suite" class="panel Ant_suite">
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutSignInPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFromHomeToStep1">
+                  </a> <!-- getFromHomeToStep1 -->
+                  <span class="method-name">getFromHomeToStep1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutEndToEnd</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)">
+                  </a> <!-- step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinland, COUNTRY=Finland, ZIP=00100, ADDRESS2=, ADDRESS1=Pohjoisesplanadi, FNAME=fnameRegFinland})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNT...)">
+                  </a> <!-- step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNT...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNTRY=Espana, ZIP=08001, ADDRESS2=, ADDRESS1=Carrer Sant Pau, FNAME=fnameSBarsa})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy...)">
+                  </a> <!-- step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy, ZIP=20121, ADDRESS2=, ADDRESS1=Via Tommaso Grossi, FNAME=fnameMilan})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)">
+                  </a> <!-- step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSlovenia, COUNTRY=Slovenia, ZIP=1000, ADDRESS2=, ADDRESS1=Slovenska Cesta, FNAME=fnameRegSlovenia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)">
+                  </a> <!-- step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUNTRY=Luxembourg, ZIP=9710, ADDRESS2=, ADDRESS1=Grand Rue, FNAME=fnameRegLuxemburg})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)">
+                  </a> <!-- step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden, COUNTRY=Sweden, ZIP=11164, ADDRESS2=, ADDRESS1=Nils Ericssons Plan, FNAME=fnameRegSweden})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)">
+                  </a> <!-- step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, COUNTRY=Hungary, ZIP=1073, ADDRESS2=, ADDRESS1=Erzsebet korut, FNAME=fnameRegHungary})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)">
+                  </a> <!-- step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal, COUNTRY=Portugal, ZIP=4350-226, ADDRESS2=, ADDRESS1=Rua Padre Manuel da Nobrega, FNAME=fnameRegPortugal})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)">
+                  </a> <!-- step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, COUNTRY=Poland, ZIP=00-692, ADDRESS2=, ADDRESS1=Aleje Jerozolimskie, FNAME=fnameRegPoland})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Gr...)">
+                  </a> <!-- step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Gr...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Greece, ZIP=11742, ADDRESS2=, ADDRESS1=Syngrou Avenue, FNAME=fnameAthens})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)">
+                  </a> <!-- step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia, COUNTRY=Slovakia, ZIP=040 01, ADDRESS2=, ADDRESS1=Hlavna, FNAME=fnameRegSlovakia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)">
+                  </a> <!-- step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=Latvia, ZIP=3401, ADDRESS2=, ADDRESS1=Veca Ostmala, FNAME=fnameRegLatvia})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)">
+                  </a> <!-- step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNetherlands, COUNTRY=Netherlands, ZIP=1017 AE, ADDRESS2=, ADDRESS1=Amstel, FNAME=fnameRegNetherlands})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=...)">
+                  </a> <!-- step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=Czech Republic, ZIP=186 00, ADDRESS2=, ADDRESS1=POBREZNI, FNAME=fnamePrague})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTR...)">
+                  </a> <!-- step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTR...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTRY=Estonia, ZIP=10145, ADDRESS2=, ADDRESS1=Tornimae, FNAME=fnameTalinn})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCope...)">
+                  </a> <!-- step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCope...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCopenhagen, COUNTRY=Denmark, ZIP=1253, ADDRESS2=, ADDRESS1=Toldbodgade, FNAME=fnameSCopenhagen})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Be...)">
+                  </a> <!-- step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Be...) -->
+                  <span class="method-name">step1Fields</span>
+                  <span class="parameters">({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Belgique, ZIP=1000, ADDRESS2=, ADDRESS1=De Brouckereplein, FNAME=fnameBrussel})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutStep1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFromHomeToStep1">
+                  </a> <!-- getFromHomeToStep1 -->
+                  <span class="method-name">getFromHomeToStep1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1Fields">
+                  </a> <!-- step1Fields -->
+                  <span class="method-name">step1Fields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fromMiniCartToCart">
+                  </a> <!-- fromMiniCartToCart -->
+                  <span class="method-name">fromMiniCartToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFromHomeToCart">
+                  </a> <!-- getFromHomeToCart -->
+                  <span class="method-name">getFromHomeToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.GetToStep1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFromHomeToStep1">
+                  </a> <!-- getFromHomeToStep1 -->
+                  <span class="method-name">getFromHomeToStep1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutSignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInGuest">
+                  </a> <!-- checkoutSignInGuest -->
+                  <span class="method-name">checkoutSignInGuest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInRegistered(software@yahoo.com, kipling1, Sorry, this does not match our records.)">
+                  </a> <!-- checkoutSignInRegistered(software@yahoo.com, kipling1, Sorry, this does not match our records.) -->
+                  <span class="method-name">checkoutSignInRegistered</span>
+                  <span class="parameters">(software@yahoo.com, kipling1, Sorry, this does not match our records.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInRegistered(, , eror msg)">
+                  </a> <!-- checkoutSignInRegistered(, , eror msg) -->
+                  <span class="method-name">checkoutSignInRegistered</span>
+                  <span class="parameters">(, , eror msg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInRegistered(software_test22@hotmail.com, kipling22, err msg)">
+                  </a> <!-- checkoutSignInRegistered(software_test22@hotmail.com, kipling22, err msg) -->
+                  <span class="method-name">checkoutSignInRegistered</span>
+                  <span class="parameters">(software_test22@hotmail.com, kipling22, err msg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInRegistered(software_test22@hotmail.com, kipling1, Checkout)">
+                  </a> <!-- checkoutSignInRegistered(software_test22@hotmail.com, kipling1, Checkout) -->
+                  <span class="method-name">checkoutSignInRegistered</span>
+                  <span class="parameters">(software_test22@hotmail.com, kipling1, Checkout)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSignInRegistered(software_test, kipling1, Sorry, this does not match our records.)">
+                  </a> <!-- checkoutSignInRegistered(software_test, kipling1, Sorry, this does not match our records.) -->
+                  <span class="method-name">checkoutSignInRegistered</span>
+                  <span class="parameters">(software_test, kipling1, Sorry, this does not match our records.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.PDPTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageMainNav">
+                  </a> <!-- homePageMainNav -->
+                  <span class="method-name">homePageMainNav</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdpPageSelectColor">
+                  </a> <!-- pdpPageSelectColor -->
+                  <span class="method-name">pdpPageSelectColor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdpPageSelectQuantity">
+                  </a> <!-- pdpPageSelectQuantity -->
+                  <span class="method-name">pdpPageSelectQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdpPageSelectSize">
+                  </a> <!-- pdpPageSelectSize -->
+                  <span class="method-name">pdpPageSelectSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdpPageSizeChart">
+                  </a> <!-- pdpPageSizeChart -->
+                  <span class="method-name">pdpPageSizeChart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pdpPageZoomIn">
+                  </a> <!-- pdpPageZoomIn -->
+                  <span class="method-name">pdpPageZoomIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subcatPageFunct">
+                  </a> <!-- subcatPageFunct -->
+                  <span class="method-name">subcatPageFunct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subcatPageUI">
+                  </a> <!-- subcatPageUI -->
+                  <span class="method-name">subcatPageUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutEndToEndBigFive</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Un...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Un...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=United Kingdom , ZIP=SE3 0RL, ADDRESS2=C, ADDRESS1=Montpelier Row, FNAME=fnameRegUK})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNT...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNT...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNTRY=Austria, ZIP=1010, ADDRESS2=, ADDRESS1=Fleischmarkt , FNAME=fnameRegAustria})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=France, ZIP=75008, ADDRESS2=, ADDRESS1=Avenue George V, FNAME=fnameRegFrance})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Uni...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Uni...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=United Kingdom , ZIP=W1D 3DH, ADDRESS2=, ADDRESS1=Richmond Mews , FNAME=fnameRegUK})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com,...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com,...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com, COUNTRY=Germany, ZIP=80905.0, ADDRESS2=, ADDRESS1=P.O. Box , FNAME=fnameRegGermany})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, CO...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, CO...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, COUNTRY=Germany, ZIP=61169, ADDRESS2=, ADDRESS1=Gr?ner Weg, FNAME=fnameRegGermany})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, CO...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, CO...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, COUNTRY=Switzerland, ZIP=8153, ADDRESS2=, ADDRESS1=Hofwisenstrasse, FNAME=fnameRegSwitzerland})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNT...)">
+                  </a> <!-- checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNT...) -->
+                  <span class="method-name">checkoutForFiveCountries</span>
+                  <span class="parameters">({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=United Kingdom , ZIP=L75 1WX, ADDRESS2=, ADDRESS1=Po Box , FNAME=fnameRegUK})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.CheckoutStep1Unit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFromHomeToStep1">
+                  </a> <!-- getFromHomeToStep1 -->
+                  <span class="method-name">getFromHomeToStep1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1CountryDropDown">
+                  </a> <!-- step1CountryDropDown -->
+                  <span class="method-name">step1CountryDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsAddress1">
+                  </a> <!-- step1FieldsAddress1 -->
+                  <span class="method-name">step1FieldsAddress1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsCity">
+                  </a> <!-- step1FieldsCity -->
+                  <span class="method-name">step1FieldsCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsEmail">
+                  </a> <!-- step1FieldsEmail -->
+                  <span class="method-name">step1FieldsEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsLname">
+                  </a> <!-- step1FieldsLname -->
+                  <span class="method-name">step1FieldsLname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsName">
+                  </a> <!-- step1FieldsName -->
+                  <span class="method-name">step1FieldsName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1FieldsZip">
+                  </a> <!-- step1FieldsZip -->
+                  <span class="method-name">step1FieldsZip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1NextStepBtnUI">
+                  </a> <!-- step1NextStepBtnUI -->
+                  <span class="method-name">step1NextStepBtnUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1SalutationBirthday">
+                  </a> <!-- step1SalutationBirthday -->
+                  <span class="method-name">step1SalutationBirthday</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.PumaUtilNavSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openPumaHomePage">
+                  </a> <!-- openPumaHomePage -->
+                  <span class="method-name">openPumaHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForPants">
+                  </a> <!-- searchForPants -->
+                  <span class="method-name">searchForPants</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForSku">
+                  </a> <!-- searchForSku -->
+                  <span class="method-name">searchForSku</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+          <div class="suite-Ant_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.puma.test.HomeEuropeHeader</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printEuropeCountries">
+                  </a> <!-- printEuropeCountries -->
+                  <span class="method-name">printEuropeCountries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHeader">
+                  </a> <!-- testHeader -->
+                  <span class="method-name">testHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Ant_suite-class-skipped -->
+        </div> <!-- panel Ant_suite -->
+        <div panel-name="test-xml-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Ant suite&quot;&gt;
+  &lt;test name=&quot;Ant test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.puma.test.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutEndToEnd&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutEndToEndBigFive&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutSignIn&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutSignInPage&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutStep1&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.CheckoutStep1Unit&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.GetToStep1&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.HomeEuropeHeader&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.InitSuite&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.PDPTest&quot;/&gt;
+      &lt;class name=&quot;com.puma.test.PumaUtilNavSearch&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.CompareUtil$Result&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.CompareUtil&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.InitPumaTest&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.ObjectMap&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.PumaCommonMethods&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.ReadingProperties&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.Return2D&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TakeScreenshot&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TestListenerFailPass&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TestReadingProperies&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TestReturn2D&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TestWebDriverManager&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.TimeUtil&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.WebDriverManager&quot;/&gt;
+      &lt;class name=&quot;com.puma.util.WebElementExtender&quot;/&gt;
+      &lt;class name=&quot;org.apache.poi.xssf.model.StylesTable&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ant test --&gt;
+&lt;/suite&gt; &lt;!-- Ant suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Ant suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ant test (28 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Ant suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cartUI</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">fromMiniCartToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkoutETE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1Fields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">checkoutSignIn</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutSignInRegistered</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">init</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageMainNav</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initCart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFromHomeToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initCheckoutStep1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFromHomeToStep1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initCheckoutStep1Unit</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFromHomeToStep1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initSearch</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">openPumaHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">initSignIn</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getFromHomeToStep1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">pdp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">pdpPageSelectColor</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pdpPageSelectQuantity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pdpPageSelectSize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pdpPageSizeChart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pdpPageZoomIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">search</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchForPants</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchForSku</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">step1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1Fields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">subcategory</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">subcatPageFunct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">subcatPageUI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">unitStep1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1CountryDropDown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsAddress1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsCity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsLname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1FieldsZip</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1NextStepBtnUI</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1SalutationBirthday</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Ant suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Ant_suite');
+function tableData_Ant_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'step1Fields')
+data.setCell(0, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'pdpPageSelectSize')
+data.setCell(1, 2, 'com.puma.test.PDPTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fromMiniCartToCart')
+data.setCell(2, 2, 'com.puma.test.CartTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'step1NextStepBtnUI')
+data.setCell(3, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkoutForFiveCountries')
+data.setCell(4, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'step1Fields')
+data.setCell(5, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getFromHomeToStep1')
+data.setCell(6, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'step1FieldsName')
+data.setCell(7, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkoutSignInRegistered')
+data.setCell(8, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getFromHomeToStep1')
+data.setCell(9, 2, 'com.puma.test.GetToStep1')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkoutSignInRegistered')
+data.setCell(10, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'subcatPageFunct')
+data.setCell(11, 2, 'com.puma.test.PDPTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkoutSignInRegistered')
+data.setCell(12, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'step1Fields')
+data.setCell(13, 2, 'com.puma.test.CheckoutStep1')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'step1Fields')
+data.setCell(14, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkoutForFiveCountries')
+data.setCell(15, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'step1Fields')
+data.setCell(16, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'step1Fields')
+data.setCell(17, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'pdpPageSelectQuantity')
+data.setCell(18, 2, 'com.puma.test.PDPTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkoutForFiveCountries')
+data.setCell(19, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkoutForFiveCountries')
+data.setCell(20, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'step1Fields')
+data.setCell(21, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'step1Fields')
+data.setCell(22, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'step1FieldsCity')
+data.setCell(23, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'step1FieldsAddress1')
+data.setCell(24, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkoutSignInRegistered')
+data.setCell(25, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getFromHomeToStep1')
+data.setCell(26, 2, 'com.puma.test.CheckoutStep1')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'openPumaHomePage')
+data.setCell(27, 2, 'com.puma.test.PumaUtilNavSearch')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'printEuropeCountries')
+data.setCell(28, 2, 'com.puma.test.HomeEuropeHeader')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'step1SalutationBirthday')
+data.setCell(29, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getFromHomeToStep1')
+data.setCell(30, 2, 'com.puma.test.CheckoutSignInPage')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'step1Fields')
+data.setCell(31, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'searchForPants')
+data.setCell(32, 2, 'com.puma.test.PumaUtilNavSearch')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'step1Fields')
+data.setCell(33, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'step1Fields')
+data.setCell(34, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'homePageMainNav')
+data.setCell(35, 2, 'com.puma.test.PDPTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'pdpPageSelectColor')
+data.setCell(36, 2, 'com.puma.test.PDPTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'pdpPageZoomIn')
+data.setCell(37, 2, 'com.puma.test.PDPTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkoutSignInRegistered')
+data.setCell(38, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'step1FieldsEmail')
+data.setCell(39, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'step1CountryDropDown')
+data.setCell(40, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'step1FieldsLname')
+data.setCell(41, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'checkoutSignInGuest')
+data.setCell(42, 2, 'com.puma.test.CheckoutSignIn')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'step1Fields')
+data.setCell(43, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'step1Fields')
+data.setCell(44, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'checkoutForFiveCountries')
+data.setCell(45, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'searchForSku')
+data.setCell(46, 2, 'com.puma.test.PumaUtilNavSearch')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'step1Fields')
+data.setCell(47, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'checkoutForFiveCountries')
+data.setCell(48, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'checkoutForFiveCountries')
+data.setCell(49, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'step1Fields')
+data.setCell(50, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'step1Fields')
+data.setCell(51, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'step1Fields')
+data.setCell(52, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'pdpPageSizeChart')
+data.setCell(53, 2, 'com.puma.test.PDPTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'subcatPageUI')
+data.setCell(54, 2, 'com.puma.test.PDPTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'checkoutForFiveCountries')
+data.setCell(55, 2, 'com.puma.test.CheckoutEndToEndBigFive')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'step1FieldsZip')
+data.setCell(56, 2, 'com.puma.test.CheckoutStep1Unit')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'getFromHomeToCart')
+data.setCell(57, 2, 'com.puma.test.CartTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testHeader')
+data.setCell(58, 2, 'com.puma.test.HomeEuropeHeader')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'step1Fields')
+data.setCell(59, 2, 'com.puma.test.CheckoutEndToEnd')
+data.setCell(59, 3, 0);
+window.suiteTableData['Ant_suite']= { tableData: data, tableDiv: 'times-div-Ant_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-Ant_suite">
+              </div> <!-- times-div-Ant_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Ant suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Ant_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">oneTimeSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutSignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9760 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutStep1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">oneTimeSetUp</span>
+                <span class="method-start">21055 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.GetToStep1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">oneTimeSetUp</span>
+                <span class="method-start">23983 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.InitSuite</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">oneTimeSetUp</span>
+                <span class="method-start">26429 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.PumaUtilNavSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">oneTimeSetUp</span>
+                <span class="method-start">29271 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutEndToEndBigFive</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getToStep1</span>
+                <span class="method-start">31974 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=30, CITY=R?mlang, PHONE=0871-423-4917, EMAIL=testSweden@hotmail.com, CO...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=6, CITY=Friedberg, PHONE=087423.4917, EMAIL=testGermany@hotmail.com, CO...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=45 05 33, CITY=Munich, PHONE=0874234917, EMAIL=testGermany@hotmail.com,...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=4, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Uni...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regPOBox, STREET_NUM=1970, CITY=Liverpool, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNT...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=23, CITY=London, PHONE=0874234917, EMAIL=testUK@hotmail.com, COUNTRY=Un...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=20, CITY=Vienna, PHONE=0874234917, EMAIL=testAustria@hotmail.com, COUNT...)</span>
+                <span class="method-start">42770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutForFiveCountries({ LNAME=regLname, STREET_NUM=31, CITY=Paris, PHONE=0874234917, EMAIL=testparis@hotmail.com, COUNTRY=...)</span>
+                <span class="method-start">42771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutStep1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFromHomeToStep1</span>
+                <span class="method-start">42771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutStep1Unit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFromHomeToStep1</span>
+                <span class="method-start">42771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.GetToStep1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFromHomeToStep1</span>
+                <span class="method-start">42772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.HomeEuropeHeader</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printEuropeCountries</span>
+                <span class="method-start">42772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHeader</span>
+                <span class="method-start">42772 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.PDPTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homePageMainNav</span>
+                <span class="method-start">42773 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutSignInPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFromHomeToStep1</span>
+                <span class="method-start">42773 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutEndToEnd</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=31, CITY=Brussel, PHONE=9255431122, EMAIL=test@yahoo.com, LNAME=fnameBrussel, COUNTRY=Be...)</span>
+                <span class="method-start">42891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=1, CITY=PRAGUE, PHONE=420-2-2484-1111, EMAIL=test@yahoo.com, LNAME=fnamePrague, COUNTRY=...)</span>
+                <span class="method-start">42891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=24-28, CITY=Copenhagen, PHONE=011 45 33 74 14 14, EMAIL=test@yahoo.com, LNAME=fnameSCope...)</span>
+                <span class="method-start">42892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=3, CITY=Tallinn, PHONE=442-453-3741, EMAIL=test@sbcglobal.net, LNAME=fnameTalinn, COUNTR...)</span>
+                <span class="method-start">42892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=9-11, CITY=Barcelona, PHONE=4424533749, EMAIL=test@hotmail.com, LNAME=fnameSBarsa, COUNT...)</span>
+                <span class="method-start">42892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=10, CITY=Athens, PHONE=442 453 3741, EMAIL=test@gmail.com, LNAME=fnameAthens, COUNTRY=Gr...)</span>
+                <span class="method-start">42893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=1, CITY=Milan, PHONE=442 453 3741, EMAIL=test@yahoo.com, LNAME=fnameMilan, COUNTRY=Italy...)</span>
+                <span class="method-start">42893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=40, CITY=Liepaja, PHONE=4424533748, EMAIL=test@msn.com, LNAME=fnameRegLatvia, COUNTRY=La...)</span>
+                <span class="method-start">42893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=9, CITY=Clervaux, PHONE=4424533748, EMAIL=test@latvia.com, LNAME=fnameRegLuxemburg, COUN...)</span>
+                <span class="method-start">42894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=8, CITY=Budapest, PHONE=4424533748, EMAIL=testHungary@gmail.com, LNAME=fnameRegHungary, ...)</span>
+                <span class="method-start">42894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=144, CITY=Amsterdam, PHONE=4424533738, EMAIL=test_amsterdam@gmail.com, LNAME=fnameRegNet...)</span>
+                <span class="method-start">42894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=45, CITY=Warsaw, PHONE=4424533738, EMAIL=test_poland@gmail.com, LNAME=fnameRegPoland, CO...)</span>
+                <span class="method-start">42895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=111, CITY=Porto, PHONE=4524533738, EMAIL=test_poRtugal@gmail.com, LNAME=fnameRegPortugal...)</span>
+                <span class="method-start">42895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=1, CITY=Kosice, PHONE=4524533738, EMAIL=test_slovakia@gmail.com, LNAME=fnameRegSlovakia,...)</span>
+                <span class="method-start">42895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=15, CITY=Ljubljana, PHONE=4524533738, EMAIL=testSlovenia@gmail.com, LNAME=fnameRegSloven...)</span>
+                <span class="method-start">42896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=29, CITY=Helsinki, PHONE=4524533738, EMAIL=testFinland@hotmail.com, LNAME=fnameRegFinlan...)</span>
+                <span class="method-start">42896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step1Fields({STREET_NUM=4, CITY=Stockholm, PHONE=4524532738, EMAIL=testSweden@hotmail.com, LNAME=fnameRegSweden,...)</span>
+                <span class="method-start">42896 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getFromHomeToCart</span>
+                <span class="method-start">42897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutSignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInGuest</span>
+                <span class="method-start">42897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.PumaUtilNavSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openPumaHomePage</span>
+                <span class="method-start">42897 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.CheckoutSignIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInRegistered(software_test22@hotmail.com, kipling1, Checkout)</span>
+                <span class="method-start">42898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInRegistered(software_test, kipling1, Sorry, this does not match our records.)</span>
+                <span class="method-start">42898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInRegistered(software@yahoo.com, kipling1, Sorry, this does not match our records.)</span>
+                <span class="method-start">42898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInRegistered(, , eror msg)</span>
+                <span class="method-start">42898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkoutSignInRegistered(software_test22@hotmail.com, kipling22, err msg)</span>
+                <span class="method-start">42898 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.puma.test.PumaUtilNavSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchForSku</span>
+                <span class="method-start">42899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchForPants</span>
+                <span class="method-start">42899 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

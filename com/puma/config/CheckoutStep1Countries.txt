@@ -1,0 +1,22 @@
+These are the countries in the dropdown list on 'Checkout Step1' page: 
+Select...
+Belgique
+Czech Republic
+Denmark
+Estonia
+Espana
+Greece
+Ireland
+Italy
+Latvia
+Luxembourg
+Hungary
+Netherlands
+Poland
+Portugal
+Slovakia
+Slovenia
+Finland
+Sweden
+
+=============================2014-01-06 03:26:32.825================================
