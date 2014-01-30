@@ -142,19 +142,7 @@ public class InitPumaTest {
 
 		Calendar calendar = Calendar.getInstance();
 		int year = calendar.get(Calendar.YEAR);
-		/*columns for 11 weeks starting from 9-Jul
-		 * 
-	        calendar.setTime(fmt.parse("9-Jul"));
-	        calendar.set(Calendar.YEAR, year);
-	        for (int i = 0; i < 11; i++) {
-	            Cell cell = headerRow.createCell(titles.length + i);
-	            cell.setCellValue(calendar);
-	            cell.setCellStyle(styles.get("header_date"));
-	            calendar.roll(Calendar.WEEK_OF_YEAR, true);
-	        }
-		 */
-		//freeze the first row
-		//sheet.createFreezePane(0, 1);
+	
 
 		Row row;
 		Cell cell;
@@ -195,32 +183,8 @@ public class InitPumaTest {
 	                        } else {
 	                            styleName = "cell_indented";
 	                        }
-	                        cell.setCellValue(data[i][j]);
-	                        break;
-	                    case 2:
-	                        styleName = isHeader ? "cell_b" : "cell_normal";
-	                        cell.setCellValue(data[i][j]);
-	                        break;
-
-
-	                    case 3:
-	                        styleName = isHeader ? "cell_b_centered" : "cell_normal_centered";
-	                        cell.setCellValue(Integer.parseInt(data[i][j]));
-	                        break;
-	                    case 4: {
-	                        calendar.setTime(fmt.parse(data[i][j]));
-	                        calendar.set(Calendar.YEAR, year);
-	                        cell.setCellValue(calendar);
-	                        styleName = isHeader ? "cell_b_date" : "cell_normal_date";
-	                        break;
-	                    }
-	                    case 5: {
-	                        int r = rownum + 1;
-	                        String fmla = "IF(AND(D"+r+",E"+r+"),E"+r+"+D"+r+",\"\")";
-	                        cell.setCellFormula(fmla);
-	                        styleName = isHeader ? "cell_bg" : "cell_g";
-	                        break;
-	                    }
+	                     
+	                      
 					 */
 				default:
 					styleName = "cell_normal";
