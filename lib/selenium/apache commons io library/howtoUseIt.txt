@@ -1,0 +1,2 @@
+Drop the JAR somewhere in the project (create a lib folder for that stuff);
+ add it as library to project's build path.
